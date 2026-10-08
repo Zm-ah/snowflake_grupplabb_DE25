@@ -12,7 +12,7 @@ headers = {
 }
 
 # Arrivals
-url = "https://api.swedavia.se/flightinfo/v2/ARN/arrivals/2026-10-07"
+url = "https://api.swedavia.se/flightinfo/v2/ARN/arrivals/2026-10-06"
 response = requests.get(url, headers=headers)
 
 print("Arrivals:", response.status_code)
@@ -24,7 +24,7 @@ with open("data/arrivals_ARN_2026-10-06.json", "w", encoding="utf-8") as file:
 
 
 # Departures
-url = "https://api.swedavia.se/flightinfo/v2/ARN/departures/2026-10-07"
+url = "https://api.swedavia.se/flightinfo/v2/ARN/departures/2026-10-06"
 response = requests.get(url, headers=headers)
 
 print("Departures:", response.status_code)

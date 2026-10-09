@@ -1,0 +1,679 @@
+{
+  "from": {
+    "departureAirportIata": "VBY",
+    "departureAirportIcao": "ESSV",
+    "departureAirportSwedish": "Visby",
+    "departureAirportEnglish": "Visby",
+    "flightDepartureDate": "2026-10-07"
+  },
+  "numberOfFlights": 12,
+  "flights": [
+    {
+      "flightId": "OJ805",
+      "arrivalAirportSwedish": "Stockholm BMA",
+      "arrivalAirportEnglish": "Stockholm BMA",
+      "airlineOperator": {
+        "iata": "OJ",
+        "icao": "NYX",
+        "name": "Nyxair"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T14:00:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "flightLegStatus": "DEL",
+        "flightLegStatusSwedish": "Borttagen",
+        "flightLegStatusEnglish": "Deleted"
+      },
+      "checkIn": {},
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "NYX805",
+        "flightId": "OJ805",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "VBY",
+        "arrivalAirportIata": "BMA",
+        "departureAirportIcao": "ESSV",
+        "arrivalAirportIcao": "ESSB"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [],
+      "remarksSwedish": [],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK086",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T04:35:00Z",
+        "actualUtc": "2026-10-07T04:23:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "02",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T03:59:19Z",
+        "gateCloseUtc": "2026-10-07T04:14:24Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [
+        "KL8531"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS086",
+        "aircraftRegistration": "SEMKE",
+        "flightId": "SK086",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "VBY",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESSV",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 06:27",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 06:27",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "OJ801",
+      "arrivalAirportSwedish": "Stockholm BMA",
+      "arrivalAirportEnglish": "Stockholm BMA",
+      "airlineOperator": {
+        "iata": "OJ",
+        "icao": "NYX",
+        "name": "Nyxair"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T05:30:00Z",
+        "actualUtc": "2026-10-07T05:23:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "01",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T05:07:25Z",
+        "gateCloseUtc": "2026-10-07T05:17:01Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "NYX801",
+        "aircraftRegistration": "ESNTB",
+        "flightId": "OJ801",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "VBY",
+        "arrivalAirportIata": "BMA",
+        "departureAirportIcao": "ESSV",
+        "arrivalAirportIcao": "ESSB"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 07:27",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 07:27",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK092",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T06:15:00Z",
+        "actualUtc": "2026-10-07T06:14:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "02",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T05:56:18Z",
+        "gateCloseUtc": "2026-10-07T06:06:55Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [
+        "KL8535",
+        "LO5406"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS65A",
+        "aircraftRegistration": "SEMKI",
+        "flightId": "SK092",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "VBY",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESSV",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 08:17",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 08:17",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK078",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T08:00:00Z",
+        "actualUtc": "2026-10-07T07:51:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "02",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T07:27:25Z",
+        "gateCloseUtc": "2026-10-07T07:43:24Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [
+        "AF4970",
+        "KL8477"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS45H",
+        "aircraftRegistration": "SEMKG",
+        "flightId": "SK078",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "VBY",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESSV",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 09:55",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 09:55",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK080",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T11:05:00Z",
+        "actualUtc": "2026-10-07T10:56:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "02",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T10:32:58Z",
+        "gateCloseUtc": "2026-10-07T10:45:50Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [
+        "AF4570",
+        "KL8515"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS080",
+        "aircraftRegistration": "SEMKG",
+        "flightId": "SK080",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "VBY",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESSV",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 12:59",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 12:59",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "OJ803",
+      "arrivalAirportSwedish": "Stockholm BMA",
+      "arrivalAirportEnglish": "Stockholm BMA",
+      "airlineOperator": {
+        "iata": "OJ",
+        "icao": "NYX",
+        "name": "Nyxair"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T11:30:00Z",
+        "actualUtc": "2026-10-07T11:22:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "01",
+        "gateAction": "B",
+        "gateOpenUtc": "2026-10-07T11:02:08Z",
+        "gateCloseUtc": "2026-10-07T11:26:01Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "NYX803",
+        "aircraftRegistration": "ESNTB",
+        "flightId": "OJ803",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "VBY",
+        "arrivalAirportIata": "BMA",
+        "departureAirportIcao": "ESSV",
+        "arrivalAirportIcao": "ESSB"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Boarding",
+          "indicator": "POSITIVE"
+        },
+        {
+          "text": "Departed 13:25",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Boarding",
+          "indicator": "POSITIVE"
+        },
+        {
+          "text": "Startat 13:25",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK082",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T14:10:00Z",
+        "actualUtc": "2026-10-07T13:55:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "02",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateCloseUtc": "2026-10-07T13:43:54Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SAS082",
+        "aircraftRegistration": "SEMKO",
+        "flightId": "SK082",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "VBY",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESSV",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 15:59",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 15:59",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "OJ807",
+      "arrivalAirportSwedish": "Stockholm BMA",
+      "arrivalAirportEnglish": "Stockholm BMA",
+      "airlineOperator": {
+        "iata": "OJ",
+        "icao": "NYX",
+        "name": "Nyxair"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T15:05:00Z",
+        "actualUtc": "2026-10-07T14:47:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "01",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateCloseUtc": "2026-10-07T14:38:51Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "NYX807",
+        "aircraftRegistration": "ESNTB",
+        "flightId": "OJ807",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "VBY",
+        "arrivalAirportIata": "BMA",
+        "departureAirportIcao": "ESSV",
+        "arrivalAirportIcao": "ESSB"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 16:50",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 16:50",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK094",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T15:00:00Z",
+        "actualUtc": "2026-10-07T14:45:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "02",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateCloseUtc": "2026-10-07T14:38:46Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [
+        "KL8533",
+        "LO5498"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS094",
+        "aircraftRegistration": "SEMKI",
+        "flightId": "SK094",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "VBY",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESSV",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 16:48",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 16:48",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK096",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T16:20:00Z",
+        "actualUtc": "2026-10-07T16:15:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "02",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateCloseUtc": "2026-10-07T16:07:33Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [
+        "KL8537"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS096",
+        "aircraftRegistration": "SEMKC",
+        "flightId": "SK096",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "VBY",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESSV",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 18:18",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 18:18",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK084",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T17:30:00Z",
+        "actualUtc": "2026-10-07T17:17:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "02",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateCloseUtc": "2026-10-07T17:09:03Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SAS084",
+        "aircraftRegistration": "SEMKO",
+        "flightId": "SK084",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "VBY",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESSV",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 19:20",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 19:20",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    }
+  ]
+}

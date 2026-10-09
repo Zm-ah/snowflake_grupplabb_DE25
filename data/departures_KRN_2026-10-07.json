@@ -1,0 +1,128 @@
+{
+  "from": {
+    "departureAirportIata": "KRN",
+    "departureAirportIcao": "ESNQ",
+    "departureAirportSwedish": "Kiruna",
+    "departureAirportEnglish": "Kiruna",
+    "flightDepartureDate": "2026-10-07"
+  },
+  "numberOfFlights": 2,
+  "flights": [
+    {
+      "flightId": "SK1045",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T11:45:00Z",
+        "actualUtc": "2026-10-07T11:56:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "01",
+        "gateAction": "I",
+        "gateOpenUtc": "2026-10-07T11:30:19Z",
+        "gateCloseUtc": "2026-10-07T11:44:18Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [
+        "AF4892",
+        "BT6195",
+        "EY3989",
+        "KL8485",
+        "LO5438"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS68L",
+        "aircraftRegistration": "SEROE",
+        "flightId": "SK1045",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "KRN",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESNQ",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 14:04",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 14:04",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK1047",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T19:25:00Z",
+        "actualUtc": "2026-10-07T19:18:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "01",
+        "gateAction": "B",
+        "gateOpenUtc": "2026-10-07T18:42:50Z",
+        "gateCloseUtc": "2026-10-07T19:07:38Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [
+        "NH6339"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS62F",
+        "aircraftRegistration": "EISCB",
+        "flightId": "SK1047",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "KRN",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESNQ",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 21:26",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 21:26",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    }
+  ]
+}

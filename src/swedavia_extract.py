@@ -11,25 +11,37 @@ headers = {
     "Ocp-Apim-Subscription-Key": os.getenv("SWEDAVIA_API_KEY")
 }
 
-# Arrivals
-url = "https://api.swedavia.se/flightinfo/v2/ARN/arrivals/2026-10-06"
-response = requests.get(url, headers=headers)
+airports = [
+    "ARN", "BMA", "GOT", "MMX", "LLA",
+    "UME", "OSD", "VBY", "RNB", "KRN"
+]
 
-print("Arrivals:", response.status_code)
+flight_date = "2026-10-07"
 
-arrivals_data = response.json()
+for airport in airports:
+    for flight_type in ["arrivals", "departures"]:
 
-with open("data/arrivals_ARN_2026-10-06.json", "w", encoding="utf-8") as file:
-    json.dump(arrivals_data, file, ensure_ascii=False, indent=2)
+        url = (
+            f"https://api.swedavia.se/flightinfo/v2/"
+            f"{airport}/{flight_type}/{flight_date}"
+        )
 
+        print("Request URL:", url)
+        response = requests.get(url, headers=headers)
 
-# Departures
-url = "https://api.swedavia.se/flightinfo/v2/ARN/departures/2026-10-06"
-response = requests.get(url, headers=headers)
+        print(f"{airport} {flight_type}: {response.status_code}")
 
-print("Departures:", response.status_code)
+        if response.ok:
+            data = response.json()
 
-departures_data = response.json()
+            filename = (
+                f"data/{flight_type}_{airport}_{flight_date}.json"
+            )
 
-with open("data/departures_ARN_2026-10-06.json", "w", encoding="utf-8") as file:
-    json.dump(departures_data, file, ensure_ascii=False, indent=2)
+            with open(filename, "w", encoding="utf-8") as file:
+                json.dump(data, file, ensure_ascii=False, indent=2)
+
+            print(f"Saved: {filename}")
+
+        else:
+            print(response.text)

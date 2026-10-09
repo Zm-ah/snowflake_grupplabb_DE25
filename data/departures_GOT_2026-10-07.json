@@ -1,0 +1,4224 @@
+{
+  "from": {
+    "departureAirportIata": "GOT",
+    "departureAirportIcao": "ESGG",
+    "departureAirportSwedish": "Göteborg",
+    "departureAirportEnglish": "Göteborg",
+    "flightDepartureDate": "2026-10-07"
+  },
+  "numberOfFlights": 76,
+  "flights": [
+    {
+      "flightId": "LH2431",
+      "arrivalAirportSwedish": "München",
+      "arrivalAirportEnglish": "Munich",
+      "airlineOperator": {
+        "iata": "LH",
+        "icao": "DLH",
+        "name": "Lufthansa"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T16:35:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "flightLegStatus": "DEL",
+        "flightLegStatusSwedish": "Borttagen",
+        "flightLegStatusEnglish": "Deleted"
+      },
+      "checkIn": {},
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "DLH7YA",
+        "flightId": "LH2431",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "MUC",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EDDM"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [],
+      "remarksSwedish": [],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "FR942",
+      "arrivalAirportSwedish": "London STN",
+      "arrivalAirportEnglish": "London STN",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T07:50:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "flightLegStatus": "DEL",
+        "flightLegStatusSwedish": "Borttagen",
+        "flightLegStatusEnglish": "Deleted"
+      },
+      "checkIn": {},
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR942",
+        "flightId": "FR942",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "STN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EGSS"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [],
+      "remarksSwedish": [],
+      "diIndicator": "I"
+    },
+    {
+      "flightId": "FR3089",
+      "arrivalAirportSwedish": "Manchester",
+      "arrivalAirportEnglish": "Manchester",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T20:45:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "flightLegStatus": "DEL",
+        "flightLegStatusSwedish": "Borttagen",
+        "flightLegStatusEnglish": "Deleted"
+      },
+      "checkIn": {},
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR12CP",
+        "flightId": "FR3089",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "MAN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EGCC"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [],
+      "remarksSwedish": [],
+      "diIndicator": "I"
+    },
+    {
+      "flightId": "FR9021",
+      "arrivalAirportSwedish": "Alicante",
+      "arrivalAirportEnglish": "Alicante",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T11:40:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "flightLegStatus": "DEL",
+        "flightLegStatusSwedish": "Borttagen",
+        "flightLegStatusEnglish": "Deleted"
+      },
+      "checkIn": {},
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR9021",
+        "flightId": "FR9021",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "ALC",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LEAL"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [],
+      "remarksSwedish": [],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "FR7089",
+      "arrivalAirportSwedish": "Zadar",
+      "arrivalAirportEnglish": "Zadar",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T15:50:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "flightLegStatus": "DEL",
+        "flightLegStatusSwedish": "Borttagen",
+        "flightLegStatusEnglish": "Deleted"
+      },
+      "checkIn": {},
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR9JB",
+        "flightId": "FR7089",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "ZAD",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LDZD"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [],
+      "remarksSwedish": [],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "FR5737",
+      "arrivalAirportSwedish": "London STN",
+      "arrivalAirportEnglish": "London STN",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T14:50:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "flightLegStatus": "DEL",
+        "flightLegStatusSwedish": "Borttagen",
+        "flightLegStatusEnglish": "Deleted"
+      },
+      "checkIn": {},
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR5737",
+        "flightId": "FR5737",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "STN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EGSS"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [],
+      "remarksSwedish": [],
+      "diIndicator": "I"
+    },
+    {
+      "flightId": "FR7397",
+      "arrivalAirportSwedish": "Pula",
+      "arrivalAirportEnglish": "Pula",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T04:55:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "flightLegStatus": "DEL",
+        "flightLegStatusSwedish": "Borttagen",
+        "flightLegStatusEnglish": "Deleted"
+      },
+      "checkIn": {},
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR7397",
+        "flightId": "FR7397",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "PUY",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LDPL"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [],
+      "remarksSwedish": [],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "TK1800",
+      "arrivalAirportSwedish": "Istanbul IST",
+      "arrivalAirportEnglish": "Istanbul IST",
+      "airlineOperator": {
+        "iata": "TK",
+        "icao": "THY",
+        "name": "Turkish Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T16:45:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "flightLegStatus": "DEL",
+        "flightLegStatusSwedish": "Borttagen",
+        "flightLegStatusEnglish": "Deleted"
+      },
+      "checkIn": {},
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "THY50V",
+        "flightId": "TK1800",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "IST",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LTFM"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [],
+      "remarksSwedish": [],
+      "diIndicator": "I"
+    },
+    {
+      "flightId": "SK144",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T08:40:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "flightLegStatus": "DEL",
+        "flightLegStatusSwedish": "Borttagen",
+        "flightLegStatusEnglish": "Deleted"
+      },
+      "checkIn": {
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [
+        "A33357",
+        "TP5502"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS144",
+        "flightId": "SK144",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [],
+      "remarksSwedish": [],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK168",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T18:00:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "flightLegStatus": "DEL",
+        "flightLegStatusSwedish": "Borttagen",
+        "flightLegStatusEnglish": "Deleted"
+      },
+      "checkIn": {
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SAS168",
+        "flightId": "SK168",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [],
+      "remarksSwedish": [],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK2142",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T18:45:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "flightLegStatus": "DEL",
+        "flightLegStatusSwedish": "Borttagen",
+        "flightLegStatusEnglish": "Deleted"
+      },
+      "checkIn": {
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SAS2142",
+        "flightId": "SK2142",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [],
+      "remarksSwedish": [],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "LH2433",
+      "arrivalAirportSwedish": "München",
+      "arrivalAirportEnglish": "Munich",
+      "airlineOperator": {
+        "iata": "LH",
+        "icao": "DLH",
+        "name": "Lufthansa"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T04:00:00Z",
+        "actualUtc": "2026-10-07T03:54:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "12",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T03:17:24Z",
+        "gateCloseUtc": "2026-10-07T03:50:37Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [
+        "A31463",
+        "AC9552",
+        "AZ4765",
+        "EY3787",
+        "NH5429",
+        "UA9446"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "DLH4EK",
+        "aircraftRegistration": "DAIEH",
+        "flightId": "LH2433",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "MUC",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EDDM"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 06:05",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 06:05",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "SK1439",
+      "arrivalAirportSwedish": "Köpenhamn",
+      "arrivalAirportEnglish": "Copenhagen",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T04:00:00Z",
+        "actualUtc": "2026-10-07T03:53:55Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "20A",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T03:00:02Z",
+        "gateCloseUtc": "2026-10-07T03:47:43Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [
+        "A33319",
+        "DL7674",
+        "EY3981",
+        "SQ2607",
+        "UX3280"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS87T",
+        "aircraftRegistration": "EISIG",
+        "flightId": "SK1439",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "CPH",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EKCH"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 06:01",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 06:01",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "LH821",
+      "arrivalAirportSwedish": "Frankfurt",
+      "arrivalAirportEnglish": "Frankfurt",
+      "airlineOperator": {
+        "iata": "LH",
+        "icao": "DLH",
+        "name": "Lufthansa"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T04:05:00Z",
+        "actualUtc": "2026-10-07T04:03:16Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "15",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T03:08:38Z",
+        "gateCloseUtc": "2026-10-07T03:48:34Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [
+        "A31459",
+        "AC9086",
+        "EY3790",
+        "NH5407",
+        "OS7430",
+        "SN7066",
+        "SQ2187",
+        "UA8726"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "DLH821",
+        "aircraftRegistration": "DAISL",
+        "flightId": "LH821",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "FRA",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EDDF"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 06:12",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 06:12",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "KL1228",
+      "arrivalAirportSwedish": "Amsterdam",
+      "arrivalAirportEnglish": "Amsterdam",
+      "airlineOperator": {
+        "iata": "KL",
+        "icao": "KLM",
+        "name": "KLM"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T04:00:00Z",
+        "actualUtc": "2026-10-07T04:25:06Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "17",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T02:58:18Z",
+        "gateCloseUtc": "2026-10-07T03:49:18Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 12,
+        "checkInDeskTo": 20
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "KLM92B",
+        "aircraftRegistration": "PHBCL",
+        "flightId": "KL1228",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "AMS",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EHAM"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 06:34",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 06:34",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "SK140",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T04:25:00Z",
+        "actualUtc": "2026-10-07T04:23:56Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "16",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T03:26:38Z",
+        "gateCloseUtc": "2026-10-07T04:13:05Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SAS32J",
+        "aircraftRegistration": "EISCB",
+        "flightId": "SK140",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 06:32",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 06:32",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "DK1804",
+      "arrivalAirportSwedish": "Rhodos",
+      "arrivalAirportEnglish": "Rhodes",
+      "airlineOperator": {
+        "iata": "DK",
+        "icao": "VKG",
+        "name": "Sunclass Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T04:20:00Z",
+        "actualUtc": "2026-10-07T04:30:11Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "19",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T03:32:54Z",
+        "gateCloseUtc": "2026-10-07T04:02:59Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 49,
+        "checkInDeskTo": 51
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "VKG804",
+        "aircraftRegistration": "OYTCE",
+        "flightId": "DK1804",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "RHO",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LGRP"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 06:40",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 06:40",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "FR9277",
+      "arrivalAirportSwedish": "London STN",
+      "arrivalAirportEnglish": "London STN",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T04:50:00Z",
+        "actualUtc": "2026-10-07T04:52:13Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "23",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T03:53:34Z",
+        "gateCloseUtc": "2026-10-07T04:28:51Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR9277",
+        "aircraftRegistration": "EIEKX",
+        "flightId": "FR9277",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "STN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EGSS"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 07:06",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 07:06",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "I"
+    },
+    {
+      "flightId": "SN2324",
+      "arrivalAirportSwedish": "Bryssel",
+      "arrivalAirportEnglish": "Brussels",
+      "airlineOperator": {
+        "iata": "SN",
+        "icao": "BEL",
+        "name": "Brussels Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T05:00:00Z",
+        "actualUtc": "2026-10-07T05:05:17Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "24B",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T04:06:10Z",
+        "gateCloseUtc": "2026-10-07T04:45:18Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [
+        "AC6341",
+        "EY7257",
+        "TP7465",
+        "UA9916"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "BEL8HW",
+        "aircraftRegistration": "OOSSO",
+        "flightId": "SN2324",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "BRU",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EBBR"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 07:13",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 07:13",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "FR9663",
+      "arrivalAirportSwedish": "Rom FCO",
+      "arrivalAirportEnglish": "Rome FCO",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T05:05:00Z",
+        "actualUtc": "2026-10-07T04:57:47Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "21A",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T03:58:08Z",
+        "gateCloseUtc": "2026-10-07T04:32:34Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR9663",
+        "aircraftRegistration": "9HVVC",
+        "flightId": "FR9663",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "FCO",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LIRF"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 07:09",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 07:09",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "SK150",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T05:25:00Z",
+        "actualUtc": "2026-10-07T05:19:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "12",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T04:46:22Z",
+        "gateCloseUtc": "2026-10-07T05:21:04Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SAS150",
+        "aircraftRegistration": "EISIY",
+        "flightId": "SK150",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 07:26",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 07:26",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "AF1553",
+      "arrivalAirportSwedish": "Paris CDG",
+      "arrivalAirportEnglish": "Paris CDG",
+      "airlineOperator": {
+        "iata": "AF",
+        "icao": "AFR",
+        "name": "Air France"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T03:55:00Z",
+        "actualUtc": "2026-10-07T03:58:35Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "14",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T02:55:43Z",
+        "gateCloseUtc": "2026-10-07T03:46:55Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 12,
+        "checkInDeskTo": 20
+      },
+      "codeShareData": [
+        "AZ3707",
+        "DL8511",
+        "G35215",
+        "KQ3111",
+        "MK9641"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "AFR83UK",
+        "aircraftRegistration": "FHBQA",
+        "flightId": "AF1553",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "CDG",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LFPG"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 06:07",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 06:07",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "BLX233",
+      "arrivalAirportSwedish": "Gran Canaria",
+      "arrivalAirportEnglish": "Gran Canaria",
+      "airlineOperator": {
+        "iata": "BLX",
+        "icao": "BLX",
+        "name": "Tui Fly Nordic"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T06:10:00Z",
+        "actualUtc": "2026-10-07T06:03:46Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "15",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T05:12:56Z",
+        "gateCloseUtc": "2026-10-07T05:50:03Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "BLX233",
+        "aircraftRegistration": "SERNF",
+        "flightId": "BLX233",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "LPA",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "GCLP"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 08:13",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 08:13",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "D85357",
+      "arrivalAirportSwedish": "Alicante",
+      "arrivalAirportEnglish": "Alicante",
+      "airlineOperator": {
+        "iata": "D8",
+        "icao": "NSZ",
+        "name": "Norwegian"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T06:25:00Z",
+        "actualUtc": "2026-10-07T06:24:29Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "18F",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T05:33:10Z",
+        "gateCloseUtc": "2026-10-07T06:19:02Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 12,
+        "checkInDeskTo": 20
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "NSZ5357",
+        "aircraftRegistration": "SERPT",
+        "flightId": "D85357",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "ALC",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LEAL"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 08:32",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 08:32",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "LO496",
+      "arrivalAirportSwedish": "Warszawa",
+      "arrivalAirportEnglish": "Warsaw",
+      "airlineOperator": {
+        "iata": "LO",
+        "icao": "LOT",
+        "name": "LOT"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T05:50:00Z",
+        "actualUtc": "2026-10-07T05:53:58Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "24B",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T05:05:37Z",
+        "gateCloseUtc": "2026-10-07T05:34:26Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 43,
+        "checkInDeskTo": 45
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "LOT496",
+        "aircraftRegistration": "SPLVM",
+        "flightId": "LO496",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "WAW",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EPWA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 08:04",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 08:04",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "SK2907",
+      "arrivalAirportSwedish": "Malaga",
+      "arrivalAirportEnglish": "Malaga",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T04:20:00Z",
+        "actualUtc": "2026-10-07T04:31:15Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "18F",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T03:17:57Z",
+        "gateCloseUtc": "2026-10-07T04:25:31Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SAS45M",
+        "aircraftRegistration": "EISIJ",
+        "flightId": "SK2907",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "AGP",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LEMG"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 06:42",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 06:42",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "AY862",
+      "arrivalAirportSwedish": "Helsingfors",
+      "arrivalAirportEnglish": "Helsinki",
+      "airlineOperator": {
+        "iata": "AY",
+        "icao": "FIN",
+        "name": "Finnair"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T06:30:00Z",
+        "estimatedUtc": "2026-10-07T06:40:00Z",
+        "actualUtc": "2026-10-07T06:39:15Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "17",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T06:09:32Z",
+        "gateCloseUtc": "2026-10-07T06:25:26Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 12,
+        "checkInDeskTo": 20
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "FIN2JA",
+        "aircraftRegistration": "OHLKG",
+        "flightId": "AY862",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "HEL",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EFHK"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 08:45",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 08:45",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "BLX523",
+      "arrivalAirportSwedish": "Lamezia Terme",
+      "arrivalAirportEnglish": "Lamezia Terme",
+      "airlineOperator": {
+        "iata": "BLX",
+        "icao": "BLX",
+        "name": "Tui Fly Nordic"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T04:45:00Z",
+        "actualUtc": "2026-10-07T04:44:44Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "13",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T03:52:20Z",
+        "gateCloseUtc": "2026-10-07T04:30:40Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "BLX523",
+        "aircraftRegistration": "SERND",
+        "flightId": "BLX523",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "SUF",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LICA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 06:56",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 06:56",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "W64296",
+      "arrivalAirportSwedish": "Tuzla",
+      "arrivalAirportEnglish": "Tuzla",
+      "airlineOperator": {
+        "iata": "W6",
+        "icao": "WZZ",
+        "name": "Wizz Air"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T07:20:00Z",
+        "actualUtc": "2026-10-07T07:15:48Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "22",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T06:30:12Z",
+        "gateCloseUtc": "2026-10-07T07:06:41Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 47,
+        "checkInDeskTo": 49
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "WZZ2HD",
+        "aircraftRegistration": "9HWBQ",
+        "flightId": "W64296",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "TZL",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LQTZ"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 09:24",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 09:24",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "I"
+    },
+    {
+      "flightId": "FR4013",
+      "arrivalAirportSwedish": "Alicante",
+      "arrivalAirportEnglish": "Alicante",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T08:05:00Z",
+        "actualUtc": "2026-10-07T07:59:45Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "20A",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T07:14:04Z",
+        "gateCloseUtc": "2026-10-07T07:46:09Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR17KC",
+        "aircraftRegistration": "9HVUU",
+        "flightId": "FR4013",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "ALC",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LEAL"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 10:08",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 10:08",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "SK142",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T07:55:00Z",
+        "actualUtc": "2026-10-07T07:50:53Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "16",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T07:09:18Z",
+        "gateCloseUtc": "2026-10-07T07:40:16Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [
+        "A33357",
+        "TP5502"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS80A",
+        "aircraftRegistration": "SEROE",
+        "flightId": "SK142",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 09:58",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 09:58",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "KL1230",
+      "arrivalAirportSwedish": "Amsterdam",
+      "arrivalAirportEnglish": "Amsterdam",
+      "airlineOperator": {
+        "iata": "KL",
+        "icao": "KLM",
+        "name": "KLM"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T07:45:00Z",
+        "actualUtc": "2026-10-07T07:46:34Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "19",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T06:57:11Z",
+        "gateCloseUtc": "2026-10-07T07:35:42Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 12,
+        "checkInDeskTo": 20
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "KLM52R",
+        "aircraftRegistration": "PHEXT",
+        "flightId": "KL1230",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "AMS",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EHAM"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 09:54",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 09:54",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "SK443",
+      "arrivalAirportSwedish": "Köpenhamn",
+      "arrivalAirportEnglish": "Copenhagen",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T08:05:00Z",
+        "actualUtc": "2026-10-07T08:01:20Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "12",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T07:33:19Z",
+        "gateCloseUtc": "2026-10-07T07:49:12Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [
+        "SQ2663",
+        "TP5504",
+        "UX3281"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS48P",
+        "aircraftRegistration": "SERZX",
+        "flightId": "SK443",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "CPH",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EKCH"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 10:18",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 10:18",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "TK1798",
+      "arrivalAirportSwedish": "Istanbul IST",
+      "arrivalAirportEnglish": "Istanbul IST",
+      "airlineOperator": {
+        "iata": "TK",
+        "icao": "THY",
+        "name": "Turkish Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T08:25:00Z",
+        "actualUtc": "2026-10-07T08:10:25Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "23",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T07:16:04Z",
+        "gateCloseUtc": "2026-10-07T08:02:01Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 3,
+        "checkInDeskTo": 7
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "THY8HP",
+        "aircraftRegistration": "TCLTG",
+        "flightId": "TK1798",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "IST",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LTFM"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 10:22",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 10:22",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "I"
+    },
+    {
+      "flightId": "LH815",
+      "arrivalAirportSwedish": "Frankfurt",
+      "arrivalAirportEnglish": "Frankfurt",
+      "airlineOperator": {
+        "iata": "LH",
+        "icao": "DLH",
+        "name": "Lufthansa"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T08:40:00Z",
+        "actualUtc": "2026-10-07T08:34:43Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "15",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T07:50:03Z",
+        "gateCloseUtc": "2026-10-07T08:30:04Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [
+        "AC9445",
+        "NH6192",
+        "OS7306",
+        "SN7074",
+        "UA9113"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "DLH2AC",
+        "aircraftRegistration": "DAIWJ",
+        "flightId": "LH815",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "FRA",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EDDF"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 10:41",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 10:41",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "FR5658",
+      "arrivalAirportSwedish": "Edinburgh",
+      "arrivalAirportEnglish": "Edinburgh",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T08:40:00Z",
+        "estimatedUtc": "2026-10-07T09:10:00Z",
+        "actualUtc": "2026-10-07T09:17:47Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "22",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T08:38:03Z",
+        "gateCloseUtc": "2026-10-07T09:05:44Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR16GE",
+        "aircraftRegistration": "EIHGE",
+        "flightId": "FR5658",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "EDI",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EGPH"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 11:27",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 11:27",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "I"
+    },
+    {
+      "flightId": "KL1232",
+      "arrivalAirportSwedish": "Amsterdam",
+      "arrivalAirportEnglish": "Amsterdam",
+      "airlineOperator": {
+        "iata": "KL",
+        "icao": "KLM",
+        "name": "KLM"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T10:05:00Z",
+        "actualUtc": "2026-10-07T09:59:14Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "17",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T09:10:10Z",
+        "gateCloseUtc": "2026-10-07T09:47:20Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 12,
+        "checkInDeskTo": 20
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "KLM1232",
+        "aircraftRegistration": "PHBCD",
+        "flightId": "KL1232",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "AMS",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EHAM"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 12:09",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 12:09",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "LH2429",
+      "arrivalAirportSwedish": "München",
+      "arrivalAirportEnglish": "Munich",
+      "airlineOperator": {
+        "iata": "LH",
+        "icao": "DLH",
+        "name": "Lufthansa"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T09:50:00Z",
+        "actualUtc": "2026-10-07T09:49:55Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "12",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T09:05:28Z",
+        "gateCloseUtc": "2026-10-07T09:43:11Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [
+        "AC9390",
+        "UA9444"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "DLH1KX",
+        "aircraftRegistration": "DAIUJ",
+        "flightId": "LH2429",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "MUC",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EDDM"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 11:58",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 11:58",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "FR6151",
+      "arrivalAirportSwedish": "Prag",
+      "arrivalAirportEnglish": "Prague",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T10:20:00Z",
+        "actualUtc": "2026-10-07T10:17:14Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "21A",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T09:25:26Z",
+        "gateCloseUtc": "2026-10-07T09:57:43Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR364N",
+        "aircraftRegistration": "EIEKX",
+        "flightId": "FR6151",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "PRG",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LKPR"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 12:23",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 12:23",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "FR4375",
+      "arrivalAirportSwedish": "Palma",
+      "arrivalAirportEnglish": "Palma",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T10:00:00Z",
+        "actualUtc": "2026-10-07T09:49:23Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "20A",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T09:03:20Z",
+        "gateCloseUtc": "2026-10-07T09:37:07Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR97BR",
+        "aircraftRegistration": "9HQDT",
+        "flightId": "FR4375",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "PMI",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LEPA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 12:11",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 12:11",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "AY864",
+      "arrivalAirportSwedish": "Helsingfors",
+      "arrivalAirportEnglish": "Helsinki",
+      "airlineOperator": {
+        "iata": "AY",
+        "icao": "FIN",
+        "name": "Finnair"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T11:00:00Z",
+        "actualUtc": "2026-10-07T10:43:50Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "19",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T10:10:07Z",
+        "gateCloseUtc": "2026-10-07T10:35:00Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 12,
+        "checkInDeskTo": 20
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "FIN91Z",
+        "aircraftRegistration": "OHLKL",
+        "flightId": "AY864",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "HEL",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EFHK"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 12:51",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 12:51",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "FR8790",
+      "arrivalAirportSwedish": "Zagreb",
+      "arrivalAirportEnglish": "Zagreb",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T10:40:00Z",
+        "actualUtc": "2026-10-07T10:35:08Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "16",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T09:46:09Z",
+        "gateCloseUtc": "2026-10-07T10:22:15Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR8EM",
+        "aircraftRegistration": "9HIHH",
+        "flightId": "FR8790",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "ZAG",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LDZA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 12:44",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 12:44",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "FR9488",
+      "arrivalAirportSwedish": "Pisa",
+      "arrivalAirportEnglish": "Pisa",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T10:20:00Z",
+        "actualUtc": "2026-10-07T10:40:13Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "13",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T09:31:30Z",
+        "gateCloseUtc": "2026-10-07T10:25:54Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR6XK",
+        "aircraftRegistration": "9HQAJ",
+        "flightId": "FR9488",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "PSA",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LIRP"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 12:50",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 12:50",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "SK158",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T11:15:00Z",
+        "actualUtc": "2026-10-07T11:10:20Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "15",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T10:22:38Z",
+        "gateCloseUtc": "2026-10-07T11:03:06Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SAS59Z",
+        "aircraftRegistration": "EISIP",
+        "flightId": "SK158",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 13:18",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 13:18",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "BA787",
+      "arrivalAirportSwedish": "London LHR",
+      "arrivalAirportEnglish": "London LHR",
+      "airlineOperator": {
+        "iata": "BA",
+        "icao": "BAW",
+        "name": "British Airways"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T11:35:00Z",
+        "actualUtc": "2026-10-07T11:29:07Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "22",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T10:39:58Z",
+        "gateCloseUtc": "2026-10-07T11:18:50Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 24,
+        "checkInDeskTo": 26
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "BAW787",
+        "aircraftRegistration": "GEUUB",
+        "flightId": "BA787",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "LHR",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EGLL"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 13:39",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 13:39",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "I"
+    },
+    {
+      "flightId": "KL1234",
+      "arrivalAirportSwedish": "Amsterdam",
+      "arrivalAirportEnglish": "Amsterdam",
+      "airlineOperator": {
+        "iata": "KL",
+        "icao": "KLM",
+        "name": "KLM"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T12:25:00Z",
+        "actualUtc": "2026-10-07T12:14:18Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "17",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T11:34:32Z",
+        "gateCloseUtc": "2026-10-07T12:08:20Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 12,
+        "checkInDeskTo": 20
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "KLM78G",
+        "aircraftRegistration": "PHNXH",
+        "flightId": "KL1234",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "AMS",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EHAM"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 14:21",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 14:21",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "FR4011",
+      "arrivalAirportSwedish": "Krakow",
+      "arrivalAirportEnglish": "Krakow",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T12:40:00Z",
+        "actualUtc": "2026-10-07T12:41:35Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "20A",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T11:46:24Z",
+        "gateCloseUtc": "2026-10-07T12:29:32Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR4011",
+        "aircraftRegistration": "9HVVC",
+        "flightId": "FR4011",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "KRK",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EPKK"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 14:57",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 14:57",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "LX1223",
+      "arrivalAirportSwedish": "Zürich",
+      "arrivalAirportEnglish": "Zürich",
+      "airlineOperator": {
+        "iata": "LX",
+        "icao": "SWR",
+        "name": "Swiss"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T12:55:00Z",
+        "actualUtc": "2026-10-07T12:58:28Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "13",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T12:10:46Z",
+        "gateCloseUtc": "2026-10-07T12:43:28Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SWR2LE",
+        "aircraftRegistration": "YLCSA",
+        "flightId": "LX1223",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "ZRH",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LSZH"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 15:07",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 15:07",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "SK431",
+      "arrivalAirportSwedish": "Köpenhamn",
+      "arrivalAirportEnglish": "Copenhagen",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T13:30:00Z",
+        "estimatedUtc": "2026-10-07T13:50:00Z",
+        "actualUtc": "2026-10-07T14:01:17Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "16",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T13:28:31Z",
+        "gateCloseUtc": "2026-10-07T13:48:42Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SAS431",
+        "aircraftRegistration": "EISIF",
+        "flightId": "SK431",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "CPH",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EKCH"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 16:09",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 16:09",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "FR965",
+      "arrivalAirportSwedish": "London STN",
+      "arrivalAirportEnglish": "London STN",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T11:30:00Z",
+        "estimatedUtc": "2026-10-07T13:45:00Z",
+        "actualUtc": "2026-10-07T14:07:50Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "23",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T13:11:50Z",
+        "gateCloseUtc": "2026-10-07T13:47:37Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR23YL",
+        "aircraftRegistration": "EIIHC",
+        "flightId": "FR965",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "STN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EGSS"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 16:19",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 16:19",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "I"
+    },
+    {
+      "flightId": "SK162",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T14:10:00Z",
+        "actualUtc": "2026-10-07T14:11:23Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "15",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T13:28:21Z",
+        "gateCloseUtc": "2026-10-07T14:03:23Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SAS41A",
+        "aircraftRegistration": "EISCA",
+        "flightId": "SK162",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 16:20",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 16:20",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "BLX495",
+      "arrivalAirportSwedish": "Rhodos",
+      "arrivalAirportEnglish": "Rhodes",
+      "airlineOperator": {
+        "iata": "BLX",
+        "icao": "BLX",
+        "name": "Tui Fly Nordic"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T14:00:00Z",
+        "actualUtc": "2026-10-07T13:55:57Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "12",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T13:06:20Z",
+        "gateCloseUtc": "2026-10-07T13:39:54Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "BLX495",
+        "aircraftRegistration": "SERND",
+        "flightId": "BLX495",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "RHO",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LGRP"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 16:07",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 16:07",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "SK7951",
+      "arrivalAirportSwedish": "Rhodos",
+      "arrivalAirportEnglish": "Rhodes",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T14:20:00Z",
+        "actualUtc": "2026-10-07T14:10:26Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "19",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T13:28:31Z",
+        "gateCloseUtc": "2026-10-07T13:57:05Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 49,
+        "checkInDeskTo": 50
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SAS7951",
+        "aircraftRegistration": "EISIJ",
+        "flightId": "SK7951",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "RHO",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LGRP"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 16:17",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 16:17",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "D85272",
+      "arrivalAirportSwedish": "Nice",
+      "arrivalAirportEnglish": "Nice",
+      "airlineOperator": {
+        "iata": "D8",
+        "icao": "NSZ",
+        "name": "Norwegian"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T14:50:00Z",
+        "actualUtc": "2026-10-07T14:44:35Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "13",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T14:05:14Z",
+        "gateCloseUtc": "2026-10-07T14:34:57Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 12,
+        "checkInDeskTo": 20
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "NSZ2FT",
+        "aircraftRegistration": "SERPT",
+        "flightId": "D85272",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "NCE",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LFMN"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 16:55",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 16:55",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "FR6749",
+      "arrivalAirportSwedish": "Budapest",
+      "arrivalAirportEnglish": "Budapest",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T14:50:00Z",
+        "actualUtc": "2026-10-07T14:44:48Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "20A",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T14:01:09Z",
+        "gateCloseUtc": "2026-10-07T14:30:48Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR8WU",
+        "aircraftRegistration": "EIEKX",
+        "flightId": "FR6749",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "BUD",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LHBP"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 16:53",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 16:53",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "AY866",
+      "arrivalAirportSwedish": "Helsingfors",
+      "arrivalAirportEnglish": "Helsinki",
+      "airlineOperator": {
+        "iata": "AY",
+        "icao": "FIN",
+        "name": "Finnair"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T15:30:00Z",
+        "actualUtc": "2026-10-07T15:16:46Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "17",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T14:46:16Z",
+        "gateCloseUtc": "2026-10-07T15:09:08Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 12,
+        "checkInDeskTo": 20
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "FIN9LK",
+        "aircraftRegistration": "OHLKE",
+        "flightId": "AY866",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "HEL",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EFHK"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 17:23",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 17:23",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "AF1453",
+      "arrivalAirportSwedish": "Paris CDG",
+      "arrivalAirportEnglish": "Paris CDG",
+      "airlineOperator": {
+        "iata": "AF",
+        "icao": "AFR",
+        "name": "Air France"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T16:00:00Z",
+        "actualUtc": "2026-10-07T15:48:28Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "14",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T15:23:51Z",
+        "gateCloseUtc": "2026-10-07T15:41:01Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 12,
+        "checkInDeskTo": 20
+      },
+      "codeShareData": [
+        "AZ3711",
+        "G35219",
+        "MK9645"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "AFR1453",
+        "aircraftRegistration": "FHBLO",
+        "flightId": "AF1453",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "CDG",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LFPG"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 18:00",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 18:00",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "BA789",
+      "arrivalAirportSwedish": "London LHR",
+      "arrivalAirportEnglish": "London LHR",
+      "airlineOperator": {
+        "iata": "BA",
+        "icao": "BAW",
+        "name": "British Airways"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T16:00:00Z",
+        "actualUtc": "2026-10-07T16:02:22Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "22",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T15:05:24Z",
+        "gateCloseUtc": "2026-10-07T15:46:47Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 24,
+        "checkInDeskTo": 26
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "BAW789",
+        "aircraftRegistration": "GEUYS",
+        "flightId": "BA789",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "LHR",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EGLL"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 18:19",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 18:19",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "I"
+    },
+    {
+      "flightId": "SK164",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T16:20:00Z",
+        "actualUtc": "2026-10-07T16:32:55Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "20A",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T15:52:36Z",
+        "gateCloseUtc": "2026-10-07T16:18:24Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SAS164",
+        "aircraftRegistration": "EISID",
+        "flightId": "SK164",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 18:42",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 18:42",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SN2318",
+      "arrivalAirportSwedish": "Bryssel",
+      "arrivalAirportEnglish": "Brussels",
+      "airlineOperator": {
+        "iata": "SN",
+        "icao": "BEL",
+        "name": "Brussels Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T16:20:00Z",
+        "actualUtc": "2026-10-07T16:17:04Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "15",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateCloseUtc": "2026-10-07T16:03:18Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [
+        "NH5164"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "BEL7TA",
+        "aircraftRegistration": "OOSSY",
+        "flightId": "SN2318",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "BRU",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EBBR"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 18:26",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 18:26",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "KL1236",
+      "arrivalAirportSwedish": "Amsterdam",
+      "arrivalAirportEnglish": "Amsterdam",
+      "airlineOperator": {
+        "iata": "KL",
+        "icao": "KLM",
+        "name": "KLM"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T16:25:00Z",
+        "actualUtc": "2026-10-07T16:41:06Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "19",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T16:05:00Z",
+        "gateCloseUtc": "2026-10-07T16:30:09Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 12,
+        "checkInDeskTo": 20
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "KLM72K",
+        "aircraftRegistration": "PHNXB",
+        "flightId": "KL1236",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "AMS",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EHAM"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 18:51",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 18:51",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "VL2431",
+      "arrivalAirportSwedish": "München",
+      "arrivalAirportEnglish": "Munich",
+      "airlineOperator": {
+        "iata": "VL",
+        "icao": "LHX",
+        "name": "Lufthansa City"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T16:35:00Z",
+        "actualUtc": "2026-10-07T16:37:42Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "12",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T15:43:26Z",
+        "gateCloseUtc": "2026-10-07T16:26:10Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "LHX4KK",
+        "aircraftRegistration": "DAIBP",
+        "flightId": "VL2431",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "MUC",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EDDM"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 18:47",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 18:47",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "W61736",
+      "arrivalAirportSwedish": "Gdansk",
+      "arrivalAirportEnglish": "Gdansk",
+      "airlineOperator": {
+        "iata": "W6",
+        "icao": "WZZ",
+        "name": "Wizz Air"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T15:45:00Z",
+        "actualUtc": "2026-10-07T15:38:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "13",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T14:45:12Z",
+        "gateCloseUtc": "2026-10-07T15:25:19Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 45,
+        "checkInDeskTo": 47
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "WZZ8BK",
+        "aircraftRegistration": "9HWDM",
+        "flightId": "W61736",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "GDN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EPGD"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 17:44",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 17:44",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "LH819",
+      "arrivalAirportSwedish": "Frankfurt",
+      "arrivalAirportEnglish": "Frankfurt",
+      "airlineOperator": {
+        "iata": "LH",
+        "icao": "DLH",
+        "name": "Lufthansa"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T16:55:00Z",
+        "actualUtc": "2026-10-07T17:05:06Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "16",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T16:31:05Z",
+        "gateCloseUtc": "2026-10-07T16:51:30Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [
+        "ET1580",
+        "OS7432",
+        "SQ2189"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "DLH8VY",
+        "aircraftRegistration": "DAILH",
+        "flightId": "LH819",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "FRA",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EDDF"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 19:14",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 19:14",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "SK166",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T17:25:00Z",
+        "actualUtc": "2026-10-07T17:27:38Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "15",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T16:53:38Z",
+        "gateCloseUtc": "2026-10-07T17:21:34Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SAS63A",
+        "aircraftRegistration": "EISIV",
+        "flightId": "SK166",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 19:35",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 19:35",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "FR3696",
+      "arrivalAirportSwedish": "Sarajevo",
+      "arrivalAirportEnglish": "Sarajevo",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T17:05:00Z",
+        "estimatedUtc": "2026-10-07T17:20:00Z",
+        "actualUtc": "2026-10-07T17:25:32Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "21B",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T16:42:07Z",
+        "gateCloseUtc": "2026-10-07T17:16:28Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR3696",
+        "aircraftRegistration": "9HVVC",
+        "flightId": "FR3696",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "SJJ",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LQSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 19:37",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 19:37",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "I"
+    },
+    {
+      "flightId": "PC5022",
+      "arrivalAirportSwedish": "Antalya",
+      "arrivalAirportEnglish": "Antalya",
+      "airlineOperator": {
+        "iata": "PC",
+        "icao": "PGT",
+        "name": "Pegasus Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T16:35:00Z",
+        "actualUtc": "2026-10-07T16:29:10Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "23",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T14:45:20Z",
+        "gateCloseUtc": "2026-10-07T16:10:41Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 51,
+        "checkInDeskTo": 53
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "PGT89YY",
+        "aircraftRegistration": "TCNCI",
+        "flightId": "PC5022",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "AYT",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LTAI"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 18:37",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 18:37",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "I"
+    },
+    {
+      "flightId": "D85059",
+      "arrivalAirportSwedish": "Malaga",
+      "arrivalAirportEnglish": "Malaga",
+      "airlineOperator": {
+        "iata": "D8",
+        "icao": "NSZ",
+        "name": "Norwegian"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T17:35:00Z",
+        "actualUtc": "2026-10-07T17:40:42Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "13",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T16:48:24Z",
+        "gateCloseUtc": "2026-10-07T17:17:25Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 12,
+        "checkInDeskTo": 20
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "NSZ9BP",
+        "aircraftRegistration": "SENAC",
+        "flightId": "D85059",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "AGP",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LEMG"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 19:51",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 19:51",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "FR090",
+      "arrivalAirportSwedish": "Malaga",
+      "arrivalAirportEnglish": "Malaga",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T17:30:00Z",
+        "actualUtc": "2026-10-07T17:40:58Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "20A",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateCloseUtc": "2026-10-07T17:18:47Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR150P",
+        "aircraftRegistration": "EIHGT",
+        "flightId": "FR090",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "AGP",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LEMG"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 19:55",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 19:55",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "EW9223",
+      "arrivalAirportSwedish": "Düsseldorf",
+      "arrivalAirportEnglish": "Düsseldorf",
+      "airlineOperator": {
+        "iata": "EW",
+        "icao": "EWG",
+        "name": "Eurowings"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T18:05:00Z",
+        "actualUtc": "2026-10-07T18:00:59Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "12",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T17:10:00Z",
+        "gateCloseUtc": "2026-10-07T17:39:45Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 43,
+        "checkInDeskTo": 44
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "EWG39J",
+        "aircraftRegistration": "DAENC",
+        "flightId": "EW9223",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "DUS",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EDDL"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 20:09",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 20:09",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "AY868",
+      "arrivalAirportSwedish": "Helsingfors",
+      "arrivalAirportEnglish": "Helsinki",
+      "airlineOperator": {
+        "iata": "AY",
+        "icao": "FIN",
+        "name": "Finnair"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T18:55:00Z",
+        "actualUtc": "2026-10-07T18:40:22Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "17",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T18:14:13Z",
+        "gateCloseUtc": "2026-10-07T18:33:56Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 12,
+        "checkInDeskTo": 20
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "FIN7RC",
+        "aircraftRegistration": "OHLKK",
+        "flightId": "AY868",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "HEL",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EFHK"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 20:46",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 20:46",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "FR8732",
+      "arrivalAirportSwedish": "Thessaloniki",
+      "arrivalAirportEnglish": "Thessaloniki",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T18:15:00Z",
+        "actualUtc": "2026-10-07T18:36:15Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "16",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T17:20:49Z",
+        "gateCloseUtc": "2026-10-07T18:29:57Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR8732",
+        "aircraftRegistration": "9HVUI",
+        "flightId": "FR8732",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "SKG",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "LGTS"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 20:45",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 20:45",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "FR6094",
+      "arrivalAirportSwedish": "Gdansk",
+      "arrivalAirportEnglish": "Gdansk",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T19:55:00Z",
+        "actualUtc": "2026-10-07T19:42:21Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "20A",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T19:18:41Z",
+        "gateCloseUtc": "2026-10-07T19:37:44Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR9SK",
+        "aircraftRegistration": "EIEKX",
+        "flightId": "FR6094",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "GDN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EPGD"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 21:51",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 21:51",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "WF209",
+      "arrivalAirportSwedish": "Bergen",
+      "arrivalAirportEnglish": "Bergen",
+      "airlineOperator": {
+        "iata": "WF",
+        "icao": "WIF",
+        "name": "Wideroe"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T20:05:00Z",
+        "actualUtc": "2026-10-07T20:15:35Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "flightLegStatus": "CAN",
+        "flightLegStatusSwedish": "Inställd",
+        "flightLegStatusEnglish": "Cancelled"
+      },
+      "checkIn": {
+        "checkInDeskFrom": 31,
+        "checkInDeskTo": 31
+      },
+      "codeShareData": [
+        "AY2682"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "WIF5ZH",
+        "aircraftRegistration": "LNWDV",
+        "flightId": "WF209",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "BGO",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "ENBR"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Cancelled",
+          "indicator": "NEGATIVE"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Inställd",
+          "indicator": "NEGATIVE"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "SK449",
+      "arrivalAirportSwedish": "Köpenhamn",
+      "arrivalAirportEnglish": "Copenhagen",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T18:40:00Z",
+        "actualUtc": "2026-10-07T18:26:32Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "15",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T17:52:42Z",
+        "gateCloseUtc": "2026-10-07T18:20:31Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 32,
+        "checkInDeskTo": 42
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SAS449",
+        "aircraftRegistration": "SEROA",
+        "flightId": "SK449",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "CPH",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EKCH"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 20:34",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 20:34",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "FR967",
+      "arrivalAirportSwedish": "London STN",
+      "arrivalAirportEnglish": "London STN",
+      "airlineOperator": {
+        "iata": "FR",
+        "icao": "RYR",
+        "name": "Ryanair Ltd"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T20:25:00Z",
+        "estimatedUtc": "2026-10-07T21:15:00Z",
+        "actualUtc": "2026-10-07T21:36:59Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "23",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T20:34:33Z",
+        "gateCloseUtc": "2026-10-07T21:03:37Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 8,
+        "checkInDeskTo": 11
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "RYR8AE",
+        "aircraftRegistration": "EIHGX",
+        "flightId": "FR967",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "GOT",
+        "arrivalAirportIata": "STN",
+        "departureAirportIcao": "ESGG",
+        "arrivalAirportIcao": "EGSS"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 23:46",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 23:46",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "I"
+    }
+  ]
+}

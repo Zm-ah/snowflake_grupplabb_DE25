@@ -1,0 +1,409 @@
+{
+  "from": {
+    "departureAirportIata": "OSD",
+    "departureAirportIcao": "ESNZ",
+    "departureAirportSwedish": "Åre Östersund",
+    "departureAirportEnglish": "Åre Östersund",
+    "flightDepartureDate": "2026-10-07"
+  },
+  "numberOfFlights": 7,
+  "flights": [
+    {
+      "flightId": "SK075",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T04:15:00Z",
+        "actualUtc": "2026-10-07T04:01:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "04",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateCloseUtc": "2026-10-07T03:52:23Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [
+        "KL8487",
+        "LO5464"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS075",
+        "aircraftRegistration": "SERON",
+        "flightId": "SK075",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "OSD",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESNZ",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 06:10",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 06:10",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK073",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T07:50:00Z",
+        "actualUtc": "2026-10-07T07:59:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "02",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateCloseUtc": "2026-10-07T07:50:23Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [
+        "AF4905",
+        "KL8603"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS073",
+        "aircraftRegistration": "SEMKC",
+        "flightId": "SK073",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "OSD",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESNZ",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 10:05",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 10:05",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK2065",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T13:50:00Z",
+        "actualUtc": "2026-10-07T13:39:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "04",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateCloseUtc": "2026-10-07T13:29:55Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [
+        "BT6203",
+        "KL8489",
+        "LO5460"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS2065",
+        "aircraftRegistration": "SEROM",
+        "flightId": "SK2065",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "OSD",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESNZ",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 15:47",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 15:47",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK071",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T17:50:00Z",
+        "actualUtc": "2026-10-07T17:46:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "04",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateCloseUtc": "2026-10-07T17:39:19Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SAS071",
+        "aircraftRegistration": "EISIH",
+        "flightId": "SK071",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "OSD",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESNZ",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 19:55",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 19:55",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "A34311",
+      "arrivalAirportSwedish": "Rhodos",
+      "arrivalAirportEnglish": "Rhodes",
+      "airlineOperator": {
+        "iata": "A3",
+        "icao": "AEE",
+        "name": "Aegean Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T09:20:00Z",
+        "actualUtc": "2026-10-07T09:32:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "04",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateCloseUtc": "2026-10-07T09:21:22Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed",
+        "checkInDeskFrom": 2,
+        "checkInDeskTo": 4
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "AEE4311",
+        "aircraftRegistration": "SXDVQ",
+        "flightId": "A34311",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "OSD",
+        "arrivalAirportIata": "RHO",
+        "departureAirportIcao": "ESNZ",
+        "arrivalAirportIcao": "LGRP"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 11:37",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 11:37",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "S"
+    },
+    {
+      "flightId": "JON202",
+      "arrivalAirportSwedish": "Umeå",
+      "arrivalAirportEnglish": "Umeå",
+      "airlineOperator": {
+        "iata": "JON",
+        "icao": "JON",
+        "name": "Jonair"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T05:40:00Z",
+        "actualUtc": "2026-10-07T05:38:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "01",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateCloseUtc": "2026-10-07T06:13:30Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "JON202",
+        "aircraftRegistration": "SEKVL",
+        "flightId": "JON202",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "OSD",
+        "arrivalAirportIata": "UME",
+        "departureAirportIcao": "ESNZ",
+        "arrivalAirportIcao": "ESNU"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 07:43",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 07:43",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "JON204",
+      "arrivalAirportSwedish": "Umeå",
+      "arrivalAirportEnglish": "Umeå",
+      "airlineOperator": {
+        "iata": "JON",
+        "icao": "JON",
+        "name": "Jonair"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T16:10:00Z",
+        "actualUtc": "2026-10-07T15:59:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "01",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateCloseUtc": "2026-10-07T16:02:29Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "JON204",
+        "aircraftRegistration": "SEMJV",
+        "flightId": "JON204",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "OSD",
+        "arrivalAirportIata": "UME",
+        "departureAirportIcao": "ESNZ",
+        "arrivalAirportIcao": "ESNU"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 18:02",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 18:02",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    }
+  ]
+}

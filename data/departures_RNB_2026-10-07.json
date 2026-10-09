@@ -1,0 +1,336 @@
+{
+  "from": {
+    "departureAirportIata": "RNB",
+    "departureAirportIcao": "ESDF",
+    "departureAirportSwedish": "Ronneby",
+    "departureAirportEnglish": "Ronneby",
+    "flightDepartureDate": "2026-10-07"
+  },
+  "numberOfFlights": 6,
+  "flights": [
+    {
+      "flightId": "SK1132",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T13:00:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "flightLegStatus": "DEL",
+        "flightLegStatusSwedish": "Borttagen",
+        "flightLegStatusEnglish": "Deleted"
+      },
+      "checkIn": {},
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SAS1132",
+        "flightId": "SK1132",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "RNB",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESDF",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [],
+      "remarksSwedish": [],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK1126",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T04:00:00Z",
+        "actualUtc": "2026-10-07T03:45:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "2",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T03:25:08Z",
+        "gateCloseUtc": "2026-10-07T03:40:15Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [
+        "KL8539"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS1126",
+        "aircraftRegistration": "SEMKC",
+        "flightId": "SK1126",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "RNB",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESDF",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 05:55",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 05:55",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK1136",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T08:05:00Z",
+        "actualUtc": "2026-10-07T08:05:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "2",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T07:37:58Z",
+        "gateCloseUtc": "2026-10-07T07:56:04Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [
+        "AF4917",
+        "KL8545"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS1136",
+        "aircraftRegistration": "SEMKO",
+        "flightId": "SK1136",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "RNB",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESDF",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 10:18",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 10:18",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK1130",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T13:55:00Z",
+        "actualUtc": "2026-10-07T13:51:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "2",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T13:24:20Z",
+        "gateCloseUtc": "2026-10-07T13:41:14Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [
+        "BT6210",
+        "KL8541"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS1130",
+        "aircraftRegistration": "SEMKE",
+        "flightId": "SK1130",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "RNB",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESDF",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 15:56",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 15:56",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK1138",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T16:35:00Z",
+        "actualUtc": "2026-10-07T16:20:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "2",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T16:04:24Z",
+        "gateCloseUtc": "2026-10-07T16:10:53Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [
+        "KL8547"
+      ],
+      "flightLegIdentifier": {
+        "callsign": "SAS1138",
+        "aircraftRegistration": "SEMKB",
+        "flightId": "SK1138",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "RNB",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESDF",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 18:26",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 18:26",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    },
+    {
+      "flightId": "SK1128",
+      "arrivalAirportSwedish": "Stockholm ARN",
+      "arrivalAirportEnglish": "Stockholm ARN",
+      "airlineOperator": {
+        "iata": "SK",
+        "icao": "SAS",
+        "name": "SAS Scandinavian Airlines"
+      },
+      "departureTime": {
+        "scheduledUtc": "2026-10-07T18:30:00Z",
+        "actualUtc": "2026-10-07T18:19:00Z"
+      },
+      "locationAndStatus": {
+        "terminal": "T1",
+        "gate": "2",
+        "gateAction": "C",
+        "gateActionSwedish": "Utgång stängd",
+        "gateActionEnglish": "Gate closed",
+        "gateOpenUtc": "2026-10-07T17:55:33Z",
+        "gateCloseUtc": "2026-10-07T18:14:41Z",
+        "flightLegStatus": "ACT",
+        "flightLegStatusSwedish": "Startat",
+        "flightLegStatusEnglish": "Departed"
+      },
+      "checkIn": {
+        "checkInStatus": "C",
+        "checkInStatusSwedish": "Stängd",
+        "checkInStatusEnglish": "Closed"
+      },
+      "codeShareData": [],
+      "flightLegIdentifier": {
+        "callsign": "SAS1128",
+        "aircraftRegistration": "SEMKI",
+        "flightId": "SK1128",
+        "flightDepartureDateUtc": "2026-10-07T00:00:00Z",
+        "departureAirportIata": "RNB",
+        "arrivalAirportIata": "ARN",
+        "departureAirportIcao": "ESDF",
+        "arrivalAirportIcao": "ESSA"
+      },
+      "viaDestinations": [],
+      "remarksEnglish": [
+        {
+          "text": "Departed 20:29",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "remarksSwedish": [
+        {
+          "text": "Startat 20:29",
+          "indicator": "NEUTRAL"
+        }
+      ],
+      "diIndicator": "D"
+    }
+  ]
+}

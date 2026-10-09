@@ -1,0 +1,9 @@
+[project]
+name = "snowflake-grupplabb-de25"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "dlt[snowflake]>=1.31.0",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+]

@@ -67,7 +67,7 @@ def flights_resource():
 pipeline = dlt.pipeline(
     pipeline_name="swedavia_flights",
     destination="snowflake",
-    dataset_name="swedavia_raw",
+    dataset_name="staging",
 )
 
 if __name__ == "__main__":

@@ -1,0 +1,12 @@
+USE ROLE sysadmin;
+
+CREATE DATABASE IF NOT EXISTS flight_punctuality;
+
+CREATE SCHEMA IF NOT EXISTS flight_punctuality.flight_data;
+
+DESCRIBE DATABASE flight_punctuality;
+
+CREATE WAREHOUSE IF NOT EXISTS FLIGHT_WH
+    WAREHOUSE_SIZE = 'XSMALL'
+    AUTO_SUSPEND = 60
+    AUTO_RESUME = TRUE;

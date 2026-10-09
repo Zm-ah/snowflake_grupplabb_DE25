@@ -1,0 +1,6 @@
+.env
+.dlt/secrets.toml
+data/
+__pycache__/
+.venv/
+.dlt/

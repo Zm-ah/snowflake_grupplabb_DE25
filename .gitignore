@@ -1,4 +1,6 @@
 .env
 .venv/
-
 .dlt/
+data/
+__pycache__/
+setup_service.sql

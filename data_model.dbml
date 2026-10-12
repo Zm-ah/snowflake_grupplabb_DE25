@@ -1,33 +1,10 @@
-Table fact_flights {
-  flight_key varchar [pk]
-  flight_id varchar
-  airport_key varchar [ref: > dim_airport.airport_key]
-  airline_key varchar [ref: > dim_airline.airline_key]
-  date_key date [ref: > dim_date.date_key]
-  direction varchar [note: 'arrivals or departures']
-  scheduled_utc timestamp
-  actual_utc timestamp
-  delay_minutes float
-  is_delayed boolean
-  is_cancelled boolean
-  status_code varchar
-}
-
 Table dim_airport {
-  airport_key varchar [pk, note: 'IATA code']
+  airport_key varchar [pk]
   icao varchar
   airport_name varchar
   city_served varchar
   usage varchar
   passengers_2023 int
-}
-
-Table dim_airline {
-  airline_key varchar [pk, note: 'ICAO code']
-  iata varchar
-  airline_name varchar
-  country varchar
-  call_sign varchar
 }
 
 Table dim_date {
@@ -38,3 +15,31 @@ Table dim_date {
   weekday_name varchar
   is_weekend boolean
 }
+
+Table dim_airline {
+  airline_key varchar [pk]
+  iata varchar
+  icao varchar
+  airline_name varchar
+  country varchar
+  call_sign varchar
+}
+
+Table fact_flights {
+  flight_key varchar [pk]
+  flight_id varchar
+  airport_key varchar
+  airline_key varchar
+  date_key date
+  direction varchar
+  scheduled_utc timestamp
+  actual_utc timestamp
+  delay_minutes float
+  is_delayed boolean
+  is_cancelled boolean
+  status_code varchar
+}
+
+Ref: fact_flights.airport_key > dim_airport.airport_key
+Ref: fact_flights.airline_key > dim_airline.airline_key
+Ref: fact_flights.date_key > dim_date.date_key

@@ -5,4 +5,4 @@ __pycache__/
 .venv/
 .dlt/
 setup_service.sql
-setup_ghalia_user.sql
+setup_team_members_user.sql 

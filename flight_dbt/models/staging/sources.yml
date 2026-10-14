@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw data loaded by dlt (Swedavia FlightInfo API and Wikipedia)
+    database: FLIGHT_DB
+    schema: STAGING
+    tables:
+      - name: flights
+        description: Arrivals and departures from the Swedavia FlightInfo API
+      - name: flights__code_share_data
+        description: Nested list of code share flight numbers (child of flights)
+      - name: flights__remarks_english
+        description: Nested list of English remarks (child of flights)
+      - name: flights__remarks_swedish
+        description: Nested list of Swedish remarks (child of flights)
+      - name: flights__via_destinations
+        description: Nested list of via destinations (child of flights)
+      - name: airlines
+        description: Airline operator info from Wikipedia
+      - name: airports
+        description: Airport info from Wikipedia

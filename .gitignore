@@ -6,3 +6,6 @@ __pycache__/
 .dlt/
 setup_service.sql
 setup_team_members_user.sql 
+logs/
+target/
+dbt_packages/

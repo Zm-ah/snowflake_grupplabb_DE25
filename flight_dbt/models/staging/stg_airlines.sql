@@ -6,3 +6,6 @@ SELECT DISTINCT
     COUNTRY AS country,
     COMMENTS AS comments
 FROM {{ source('raw', 'airlines') }}
+WHERE
+    AIRLINE IS NOT NULL
+    AND TRIM(AIRLINE) != ''

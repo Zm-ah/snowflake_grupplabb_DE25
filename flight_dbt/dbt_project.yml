@@ -34,5 +34,10 @@ models:
   flight_dbt:
     staging:
       +materialized: view    # staging models are lightweight views
+      +schema: stg    # built in ANALYTICS_STG
+      
+
     marts:
       +materialized: table   # dimensions and facts are stored as tables
+      +schema: marts   # built in ANALYTICS_MARTS
+

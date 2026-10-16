@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: stg_airlines
+    description: "Cleaned and standardized airline data."
+    columns:
+      - name: airline_name
+        description: "Name of the airline."
+        data_tests:
+          - not_null
+
+
+      - name: icao_code
+        description: "ICAO code assigned to the airline."
+
+        
+    
+  - name: stg_airports
+    description: "Cleaned and standardized airport data."
+    columns:
+      - name: airport_name
+        description: "Name of the airport."
+
+      - name: icao_code
+        description: "ICAO code identifying the airport."
+        data_tests:
+          - not_null
+
+  - name: stg_flights
+    description: "Cleaned and standardized flight data."
+    columns:
+      - name: flight_id
+        description: "Identifier associated with a flight record."
+        data_tests:
+          - not_null
+
+      - name: flight_date
+        description: "Date of the flight."

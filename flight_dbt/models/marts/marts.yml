@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: dim_airport
+    columns:
+      - name: airport_key
+        data_tests:
+          - unique
+          - not_null
+          
+  - name: fct_flights
+    columns:
+      - name: flight_key
+        data_tests:
+          - unique
+          - not_null         
+  - name: dim_airline
+    columns:
+      - name: airline_key
+        data_tests:
+          - unique
+          - not_null         

@@ -8,3 +8,9 @@ models:
           - unique
           - not_null
           
+  - name: fct_flights
+    columns:
+      - name: flight_key
+        data_tests:
+          - unique
+          - not_null         

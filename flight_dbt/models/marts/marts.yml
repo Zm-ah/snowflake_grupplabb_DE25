@@ -14,3 +14,9 @@ models:
         data_tests:
           - unique
           - not_null         
+  - name: dim_airline
+    columns:
+      - name: airline_key
+        data_tests:
+          - unique
+          - not_null         

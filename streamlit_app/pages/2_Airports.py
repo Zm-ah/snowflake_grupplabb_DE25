@@ -140,8 +140,7 @@ with left:
 ),
     x=alt.X(
         "TOTAL_FLIGHTS:Q",
-        title="Number of flights",
-        scale=alt.Scale(domain=[0, 2000], clamp=True)
+        title="Number of flights"
     ),
     tooltip=["AIRPORT_NAME", "TOTAL_FLIGHTS"]
 ).properties(

@@ -3,6 +3,38 @@ import streamlit as st
 
 from db import LAST_3_DAYS, run_query
 
+st.markdown("""
+    <style>
+    .stApp {
+        background: linear-gradient(
+            135deg,
+            #FFF1D6 0%,
+            #FFD6B8 35%,
+            #F4B6B8 70%,
+            #D9B8D8 100%
+        );
+        color: #493447;
+    }
+
+    h1, h2, h3, p, label {
+        color: #493447 !important;
+    }
+
+    [data-testid="stMetric"] {
+        background-color: rgba(255, 255, 255, 0.65);
+        padding: 18px;
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        box-shadow: 0 4px 12px rgba(120, 75, 90, 0.08);
+    }
+
+    [data-testid="stDataFrame"] {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 12px;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 st.title("Airport Performance")
 st.caption("Flight activity · Latest three data days")
 

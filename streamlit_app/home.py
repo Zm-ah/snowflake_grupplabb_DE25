@@ -16,28 +16,33 @@ CSS = """
 /* Fallback background if no video exists */
 .stApp { background: linear-gradient(160deg, #0b1220 0%, #16243d 60%, #1f3a5f 100%); }
 [data-testid="stHeader"] { background: transparent; }
+[data-testid="stHeader"] * { color: #ffffff !important; }
 
-/* Video layer and dark overlay behind the content */
+/* Video layer: darkened with a filter, so no overlay can cover the text */
 #bg-video { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
-            object-fit: cover; z-index: 0; }
-#bg-overlay { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
-              background: rgba(5, 10, 25, 0.55); z-index: 1; }
+            object-fit: cover; z-index: 0; filter: brightness(0.45) saturate(1.1); }
 
 /* Page content above the video */
 .block-container, [data-testid="stMainBlockContainer"] { position: relative; z-index: 2; }
+.hero-title, .hero-subtitle, [data-testid="stMetric"], [data-testid="stCaptionContainer"] {
+    position: relative; z-index: 3; }
 
 /* Hero text */
-.hero-title { font-size: 4rem; font-weight: 800; color: white; margin-top: 8vh;
-              text-shadow: 0 2px 20px rgba(0, 0, 0, 0.6); }
-.hero-subtitle { font-size: 1.4rem; color: #dbe7ff; margin-bottom: 3rem; }
+.hero-title { font-size: 4rem; font-weight: 800; color: #ffffff; margin-top: 8vh;
+              text-shadow: 0 2px 24px rgba(0, 0, 0, 0.8); }
+.hero-subtitle { font-size: 1.4rem; color: #ffffff; margin-bottom: 3rem;
+                 text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8); }
 
-/* Metric cards with a glass effect */
-[data-testid="stMetric"] { background: rgba(255, 255, 255, 0.10);
-                           border: 1px solid rgba(255, 255, 255, 0.20);
+/* Metric cards: dark glass for strong contrast */
+[data-testid="stMetric"] { background: rgba(8, 16, 36, 0.55);
+                           border: 1px solid rgba(255, 255, 255, 0.25);
                            border-radius: 16px; padding: 18px 20px;
-                           backdrop-filter: blur(10px); }
-[data-testid="stMetric"] * { color: white !important; }
-.stCaption, [data-testid="stCaptionContainer"] { color: #c5d3ee !important; }
+                           backdrop-filter: blur(12px); }
+[data-testid="stMetric"] * { color: #ffffff !important; }
+
+/* Caption text under the cards */
+[data-testid="stCaptionContainer"] * { color: #e6eeff !important;
+                                       text-shadow: 0 1px 8px rgba(0, 0, 0, 0.8); }
 </style>
 """
 
@@ -58,11 +63,9 @@ def add_background(video_path: Path) -> None:
             <video id="bg-video" autoplay muted loop playsinline>
                 <source src="data:video/mp4;base64,{video_b64}" type="video/mp4">
             </video>
-            <div id="bg-overlay"></div>
             """,
             unsafe_allow_html=True,
         )
-
 
 add_background(VIDEO_PATH)
 

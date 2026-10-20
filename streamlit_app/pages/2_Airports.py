@@ -3,7 +3,7 @@ import streamlit as st
 
 from db import LAST_3_DAYS, run_query
 
-st.title("🛫 Airport Performance")
+st.title("Airport Performance")
 st.caption("Flight activity · Latest three data days")
 
 df = run_query(f"""

@@ -3,37 +3,84 @@ import streamlit as st
 
 from db import LAST_3_DAYS, run_query
 
+
 st.markdown("""
-    <style>
-    .stApp {
-        background: linear-gradient(
-            135deg,
-            #FFF1D6 0%,
-            #FFD6B8 35%,
-            #F4B6B8 70%,
-            #D9B8D8 100%
-        );
-        color: #493447;
-    }
+<style>
+/* Sunset gradient background */
+.stApp {
+    background: linear-gradient(
+        145deg,
+        #16243D 0%,
+        #3D405B 35%,
+        #80566B 70%,
+        #D98791 100%
+    );
+    color: #FFFFFF;
+}
 
-    h1, h2, h3, p, label {
-        color: #493447 !important;
-    }
+/* Header */
+[data-testid="stHeader"] {
+    background: transparent;
+}
 
-    [data-testid="stMetric"] {
-        background-color: rgba(255, 255, 255, 0.65);
-        padding: 18px;
-        border-radius: 16px;
-        border: 1px solid rgba(255, 255, 255, 0.8);
-        box-shadow: 0 4px 12px rgba(120, 75, 90, 0.08);
-    }
+/* Main titles and text */
+h1, h2, h3, p, label {
+    color: #FFFFFF !important;
+}
 
-    [data-testid="stDataFrame"] {
-        background-color: rgba(255, 255, 255, 0.8);
-        border-radius: 12px;
-    }
-    </style>
-    """, unsafe_allow_html=True)
+/* Sidebar background */
+[data-testid="stSidebar"] {
+    background: #493447;
+}
+
+/* Sidebar text */
+[data-testid="stSidebar"] * {
+    color: #FFF1D6 !important;
+}
+
+/* Selected page */
+[data-testid="stSidebarNav"] a[aria-current="page"] {
+    background-color: #80566B;
+    border-radius: 10px;
+}
+
+/* Sidebar hover */
+[data-testid="stSidebarNav"] a:hover {
+    background-color: #705568;
+    border-radius: 10px;
+}
+
+/* Airport statistic cards */
+[data-testid="stMetric"] {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    padding: 18px 20px;
+    backdrop-filter: blur(10px);
+}
+
+[data-testid="stMetric"] * {
+    color: #FFFFFF !important;
+}
+
+/* Captions */
+[data-testid="stCaptionContainer"] * {
+    color: #F3D6E0 !important;
+}
+
+/* Data table */
+[data-testid="stDataFrame"] {
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+}
+
+/* Divider */
+hr {
+    border-color: rgba(255, 255, 255, 0.25);
+}
+</style>
+""", unsafe_allow_html=True)
+
 
 st.title("Airport Performance")
 st.caption("Flight activity · Latest three data days")
@@ -65,21 +112,55 @@ airport_count = len(df)
 
 delay_rate = total_delayed / total_flights if total_flights else 0
 
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col4 = st.columns(3)
 
 col1.metric("Total flights", f"{total_flights:,}")
 col2.metric("Airports", airport_count)
-col3.metric("Delayed flights", f"{total_delayed:,}")
 col4.metric("Delay rate", f"{delay_rate:.1%}")
 
 st.divider()
 
 left, right = st.columns([3, 2])
 
+import altair as alt
+
 with left:
     st.subheader("Flights by airport")
-    chart_df = df.set_index("IATA_CODE")[["TOTAL_FLIGHTS"]]
-    st.bar_chart(chart_df)
+
+    chart_df = df[["AIRPORT_NAME", "TOTAL_FLIGHTS"]]
+
+    chart = alt.Chart(chart_df).mark_bar().encode(
+    y=alt.Y(
+    "AIRPORT_NAME:N",
+    title="Airport",
+    sort=alt.EncodingSortField(
+        field="TOTAL_FLIGHTS",
+        order="descending"
+    )
+),
+    x=alt.X(
+        "TOTAL_FLIGHTS:Q",
+        title="Number of flights",
+        scale=alt.Scale(domain=[0, 2000], clamp=True)
+    ),
+    tooltip=["AIRPORT_NAME", "TOTAL_FLIGHTS"]
+).properties(
+    background="transparent"
+).configure_view(
+    strokeOpacity=0
+)
+
+chart = chart.configure_axis(
+    grid=False,
+    labelColor="white",
+    titleColor="white"
+)
+
+st.altair_chart(
+    chart,
+    use_container_width=True,
+    theme=None
+)
 
 with right:
     st.subheader("Flight status")

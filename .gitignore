@@ -9,3 +9,4 @@ setup_team_members_user.sql
 logs/
 target/
 dbt_packages/
+**/secrets.toml

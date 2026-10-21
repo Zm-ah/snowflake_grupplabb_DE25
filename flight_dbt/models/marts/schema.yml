@@ -1,0 +1,58 @@
+version: 2
+
+models:
+  - name: dim_airport
+    description: "Dimensionstabell över alla flygplatser."
+    columns:
+      - name: airport_key
+        data_tests:
+          - unique
+          - not_null
+
+  - name: dim_airline
+    description: "Dimensionstabell över alla flygbolag."
+    columns:
+      - name: airline_key
+        data_tests:
+          - unique
+          - not_null
+
+  - name: dim_date
+    description: "Kalenderdimension för tid- och datumanalys."
+    columns:
+      - name: date_key
+        data_tests:
+          - unique
+          - not_null
+
+  - name: fct_flights
+    description: "Faktatabell med flygdata som matar Streamlit-appen."
+    columns:
+      - name: flight_key
+        data_tests:
+          - unique
+          - not_null         
+
+      # Koppling till flygplatser (Exempel på kolumnnamn, byt ut om du döpt dem annorlunda)
+      - name: airport_key
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_airport')
+              field: airport_key
+
+      # Koppling till flygbolag
+      - name: airline_key
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_airline')
+              field: airline_key
+
+      # Koppling till datum
+      - name: flight_date 
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_date')
+              field: date_key

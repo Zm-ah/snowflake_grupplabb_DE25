@@ -127,13 +127,24 @@ uv run streamlit run <path to the main Streamlit file>
 ### Known limitation: run the pipeline after midnight
 The API gives scheduled times first and actual times later. If the pipeline runs early in the day, flights that have not taken off yet only have a scheduled time, so the numbers for that day are incomplete. Because of this we run the pipeline after midnight and only show complete days in the dashboard.
 
-### Next steps
-- [x] `sources.yml` (the tables in `STAGING`)
-- [x] Staging models
-- [x] Dimensions and fact table
-- [x] Tests
-- [ ] Documentation (`schema.yml` descriptions)
-- [ ] Streamlit dashboard: final polish, only complete days, same numbers on all pages
-- [ ] Dagster
-- [ ] Docker and Azure (VG)
+### 9. Dagster: orchestration
+Dagster runs the whole chain in the right order: first dlt (raw tables in `STAGING`), then dbt (staging models, dimensions and the fact table). The code is in `dagster_project/definitions.py`.
+ 
+What is defined there:
+- dlt assets: `raw / flights`, `raw / airports`, `raw / airlines`
+- dbt assets: all models in `flight_dbt` (`dbt build`, so models and tests)
+- a nightly job and schedule that run everything at 03:00 (Europe/Stockholm)
+```bash
+uv sync                                                  # installs Dagster with the other packages
+uv run dagster dev -f dagster_project/definitions.py     # starts Dagster
+```
+Open `http://localhost:3000`, go to **Lineage** and click **Materialize all** to run the whole pipeline by hand. Go to **Automation** to turn the nightly schedule on or off.
+ 
+Dagster needs the same setup as the earlier steps: `.env` (Swedavia key), `.dlt/secrets.toml` (Snowflake login for dlt) and `~/.dbt/profiles.yml` (Snowflake login for dbt).
+ 
+Note: the schedule only runs while Dagster is running, so on a laptop the computer must be on at 03:00. Running Dagster in Docker on Azure (see next steps) solves this.
+ 
+### Known limitation: run the pipeline after midnight
+The API gives scheduled times first and actual times later. If the pipeline runs early in the day, flights that have not taken off yet only have a scheduled time, so the numbers for that day are incomplete. The nightly schedule runs after midnight, and the dashboard only shows complete days (today is left out).
+ 
  

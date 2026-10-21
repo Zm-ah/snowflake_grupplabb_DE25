@@ -220,3 +220,8 @@ def glass_table(data) -> str:
 
 
 st.markdown(glass_table(df), unsafe_allow_html=True)
+ 
+st.caption(
+    "Delayed = more than 15 minutes late. "
+    "Airports with few flights vary a lot in delay share."
+)

@@ -1,7 +1,9 @@
 
-import altair as alt
 import html
-
+ 
+import altair as alt
+import streamlit as st
+ 
 from db import LAST_3_DAYS, run_query
  
 st.markdown(
@@ -145,16 +147,7 @@ bars = (
             alt.Tooltip("DELAYED_PERCENT:Q", title="Delayed (%)", format=".1f"),
         ],
     )
-),
-    x=alt.X(
-        "TOTAL_FLIGHTS:Q",
-        title="Number of flights"
-    ),
-    tooltip=["AIRPORT_NAME", "TOTAL_FLIGHTS"]
-).properties(
-    background="transparent"
-).configure_view(
-    strokeOpacity=0
+    .properties(height=28 * len(df) + 40)
 )
 labels = bars.mark_text(align="left", dx=5, color="#f6ecdc").encode(
     text=alt.Text("DELAYED_PERCENT:Q", format=".1f")
@@ -169,56 +162,13 @@ chart = (
         gridColor="rgba(255, 255, 255, 0.12)",
         domainColor="rgba(255, 255, 255, 0.35)",
         tickColor="rgba(255, 255, 255, 0.35)",
+
     )
     .configure_view(stroke=None)
 )
-
-with right:
-    st.subheader("Flight status")
-    st.write("Delayed flights:", f"{total_delayed:,}")
-    st.write("Cancelled flights:", f"{total_cancelled:,}")
-
-
-st.subheader("Airport details")
-st.caption("Overview of flight activity by airport")
-
-
-def glass_table(data) -> str:
-    rows = ""
-
-    for _, r in data.iterrows():
-        total = int(r["TOTAL_FLIGHTS"])
-        delayed = int(r["DELAYED_FLIGHTS"])
-        cancelled = int(r["CANCELLED_FLIGHTS"])
-        delayed_percent = delayed / total * 100 if total else 0
-
-        rows += (
-            "<tr>"
-            f"<td>{html.escape(str(r['AIRPORT_NAME']))}</td>"
-            f"<td>{html.escape(str(r['IATA_CODE']))}</td>"
-            f"<td>{html.escape(str(r['CITY']))}</td>"
-            f"<td class='num'>{total:,}</td>"
-            f"<td class='num'>{delayed:,}</td>"
-            f"<td><div class='cell'>"
-            f"<div class='bar'><div class='fill' "
-            f"style='width:{delayed_percent:.1f}%'></div></div>"
-            f"<span>{delayed_percent:.1f}%</span>"
-            f"</div></td>"
-            f"<td class='num'>{cancelled:,}</td>"
-            "</tr>"
-        )
-
-    return (
-        "<div class='glass-wrap'><table class='glass'>"
-        "<thead><tr>"
-        "<th>Airport</th><th>IATA</th><th>City</th>"
-        "<th>Total flights</th><th>Delayed flights</th>"
-        "<th>Delayed (%)</th><th>Cancelled flights</th>"
-        "</tr></thead>"
-        f"<tbody>{rows}</tbody></table></div>"
-    )
-
-
+st.altair_chart(chart, use_container_width=True, theme=None)
+ 
+st.subheader("Details")
 st.markdown(glass_table(df), unsafe_allow_html=True)
  
 st.caption(

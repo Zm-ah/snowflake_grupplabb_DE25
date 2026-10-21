@@ -1,10 +1,16 @@
-# Time trends page: when do delays happen? Daily and hour-of-day view
-import html
+# Time trends page: when do delays happen? Latest three days, per day and per hour
 
 import altair as alt
 import streamlit as st
 
 from db import LAST_3_DAYS, run_query
+
+# --- Settings ---
+# Hide hours with fewer operated flights than this (too small a sample)
+MIN_FLIGHTS_PER_HOUR = 10
+# A day counts as partial if fewer than this share of its expected flights
+# have an actual time yet
+PARTIAL_THRESHOLD = 0.9
 
 # --- Palette: change here if the group updates the colors ---
 COLOR_ARRIVALS = "#FFF1D6"
@@ -38,50 +44,10 @@ st.markdown(
     [data-testid="stSidebarNav"] a[aria-current="page"] { background-color: #80566B; border-radius: 10px; }
     [data-testid="stSidebarNav"] a:hover { background-color: #705568; border-radius: 10px; }
 
-    /* Transparent glass table */
-    .glass-wrap { border: 1px solid rgba(255, 255, 255, 0.25); border-radius: 12px;
-                  overflow: hidden; background: rgba(255, 255, 255, 0.12);
-                  backdrop-filter: blur(10px); }
-    table.glass { width: 100%; border-collapse: collapse; color: #FFFFFF; }
-    table.glass th { text-align: left; padding: 12px 14px; background: rgba(255, 255, 255, 0.10);
-                     font-weight: 600; color: #FFF1D6; }
-    table.glass td { padding: 10px 14px; border-top: 1px solid rgba(255, 255, 255, 0.25); }
-    table.glass tr:hover td { background: rgba(255, 255, 255, 0.08); }
-    table.glass td.num { text-align: right; }
-    .cell { display: flex; align-items: center; gap: 10px; }
-    .bar { flex: 1; min-width: 120px; height: 10px; border-radius: 5px;
-           background: rgba(255, 255, 255, 0.18); overflow: hidden; }
-    .fill { height: 100%; background: #F3D6E0; border-radius: 5px; }
     </style>
     """,
     unsafe_allow_html=True,
 )
-
-
-def glass_table(data) -> str:
-    """Build a transparent HTML table with a small bar for the delayed share."""
-    max_pct = float(data["DELAYED_PERCENT"].max()) or 1.0
-    rows = ""
-    for _, r in data.iterrows():
-        width = 100 * float(r["DELAYED_PERCENT"]) / max_pct
-        rows += (
-            "<tr>"
-            f"<td>{html.escape(str(r['FLIGHT_DATE']))}</td>"
-            f"<td>{html.escape(str(r['DIRECTION']))}</td>"
-            f"<td class='num'>{int(r['OPERATED_FLIGHTS'])}</td>"
-            f"<td class='num'>{int(r['DELAYED_FLIGHTS'])}</td>"
-            f"<td><div class='cell'><div class='bar'><div class='fill' style='width:{width:.0f}%'></div></div>"
-            f"<span>{float(r['DELAYED_PERCENT']):.1f}</span></div></td>"
-            f"<td class='num'>{float(r['MEDIAN_DELAY_MINUTES']):.1f}</td>"
-            "</tr>"
-        )
-    return (
-        "<div class='glass-wrap'><table class='glass'>"
-        "<thead><tr><th>Date</th><th>Direction</th><th>Operated flights</th>"
-        "<th>Delayed flights</th><th>Delayed (%)</th><th>Median delay (min)</th></tr></thead>"
-        f"<tbody>{rows}</tbody></table></div>"
-    )
-
 
 def style_chart(chart):
     """Transparent background and light text so charts fit the dark page."""
@@ -99,49 +65,60 @@ def style_chart(chart):
     )
 
 
-period = st.radio(
-    "Period", ["All loaded days", "Latest three days"], horizontal=True
-)
-period_filter = LAST_3_DAYS if period == "Latest three days" else "1 = 1"
-
-min_flights = st.slider(
-    "Minimum number of operated flights per hour and direction", 5, 100, 20
-)
-
 # ---------- Per day ----------
+# EXPECTED_FLIGHTS = flights that should have an actual time (not deleted, not
+# cancelled). It is used to detect a day that is still incomplete.
 daily = run_query(f"""
     SELECT
         FLIGHT_DATE,
         DIRECTION,
-        COUNT(*) AS OPERATED_FLIGHTS,
-        SUM(CASE WHEN IS_DELAYED THEN 1 ELSE 0 END) AS DELAYED_FLIGHTS,
-        ROUND(100 * SUM(CASE WHEN IS_DELAYED THEN 1 ELSE 0 END) / COUNT(*), 1) AS DELAYED_PERCENT,
+        COUNT_IF(HAS_ACTUAL_TIME) AS OPERATED_FLIGHTS,
+        COUNT_IF(NOT IS_DELETED AND NOT IS_CANCELLED) AS EXPECTED_FLIGHTS,
+        COUNT_IF(IS_DELAYED) AS DELAYED_FLIGHTS,
+        ROUND(100 * COUNT_IF(IS_DELAYED) / NULLIF(COUNT_IF(HAS_ACTUAL_TIME), 0), 1) AS DELAYED_PERCENT,
         ROUND(MEDIAN(DELAY_MINUTES), 1) AS MEDIAN_DELAY_MINUTES
     FROM FCT_FLIGHTS
-    WHERE HAS_ACTUAL_TIME
-      AND {period_filter}
+    WHERE {LAST_3_DAYS}
     GROUP BY FLIGHT_DATE, DIRECTION
     ORDER BY FLIGHT_DATE, DIRECTION
 """)
 
+daily = daily[daily["OPERATED_FLIGHTS"] > 0]
 if daily.empty:
-    st.info("No operated flights found for the selected period.")
+    st.info("No operated flights found for the latest three days.")
     st.stop()
 
-# Snowflake returns decimals; convert so charts and tables can use them.
-# Dates become text so the axis only shows days that exist in the data.
+# Snowflake returns decimals; convert so charts and tables can use them
 for column in ["DELAYED_PERCENT", "MEDIAN_DELAY_MINUTES"]:
     daily[column] = daily[column].astype(float)
-for column in ["OPERATED_FLIGHTS", "DELAYED_FLIGHTS"]:
+for column in ["OPERATED_FLIGHTS", "EXPECTED_FLIGHTS", "DELAYED_FLIGHTS"]:
     daily[column] = daily[column].astype(int)
 daily["FLIGHT_DATE"] = daily["FLIGHT_DATE"].astype(str)
+
+# Find days where too few flights have an actual time yet
+per_day = daily.groupby("FLIGHT_DATE")[["OPERATED_FLIGHTS", "EXPECTED_FLIGHTS"]].sum()
+completeness = per_day["OPERATED_FLIGHTS"] / per_day["EXPECTED_FLIGHTS"].where(
+    per_day["EXPECTED_FLIGHTS"] > 0
+)
+partial_days = list(completeness[completeness < PARTIAL_THRESHOLD].index)
+
+# Label shown on the x-axis: partial days are marked clearly
+daily["DAY"] = daily["FLIGHT_DATE"].apply(
+    lambda d: f"{d} (partial)" if d in partial_days else d
+)
+day_order = daily.sort_values("FLIGHT_DATE")["DAY"].drop_duplicates().tolist()
 
 st.subheader("Share of delayed flights per day")
 daily_line = (
     alt.Chart(daily)
     .mark_line(point=True, strokeWidth=3)
     .encode(
-        x=alt.X("FLIGHT_DATE:O", title="Date", axis=alt.Axis(labelAngle=-45)),
+        x=alt.X(
+            "DAY:O",
+            title="Date",
+            sort=day_order,
+            axis=alt.Axis(labelAngle=0, labelLimit=200),
+        ),
         y=alt.Y(
             "DELAYED_PERCENT:Q",
             title="Delayed flights (%)",
@@ -149,7 +126,7 @@ daily_line = (
         ),
         color=alt.Color("DIRECTION:N", scale=DIRECTION_SCALE, title="Direction"),
         tooltip=[
-            alt.Tooltip("FLIGHT_DATE:O", title="Date"),
+            alt.Tooltip("DAY:O", title="Date"),
             alt.Tooltip("DIRECTION:N", title="Direction"),
             alt.Tooltip("OPERATED_FLIGHTS:Q", title="Operated flights"),
             alt.Tooltip("DELAYED_PERCENT:Q", title="Delayed (%)", format=".1f"),
@@ -159,23 +136,12 @@ daily_line = (
 )
 st.altair_chart(style_chart(daily_line), use_container_width=True, theme=None)
 
-st.subheader("Operated flights per day")
-daily_volume = (
-    alt.Chart(daily)
-    .mark_bar(cornerRadiusEnd=4)
-    .encode(
-        x=alt.X("FLIGHT_DATE:O", title="Date", axis=alt.Axis(labelAngle=-45)),
-        y=alt.Y("OPERATED_FLIGHTS:Q", title="Operated flights"),
-        color=alt.Color("DIRECTION:N", scale=DIRECTION_SCALE, title="Direction"),
-        tooltip=[
-            alt.Tooltip("FLIGHT_DATE:O", title="Date"),
-            alt.Tooltip("DIRECTION:N", title="Direction"),
-            alt.Tooltip("OPERATED_FLIGHTS:Q", title="Operated flights"),
-        ],
+for day in partial_days:
+    st.caption(
+        f"{day} is incomplete: only {int(per_day.loc[day, 'OPERATED_FLIGHTS'])} of about "
+        f"{int(per_day.loc[day, 'EXPECTED_FLIGHTS'])} expected flights have an actual time yet, "
+        "so its delay share rests on a small sample and is not a trend."
     )
-    .properties(height=280)
-)
-st.altair_chart(style_chart(daily_volume), use_container_width=True, theme=None)
 
 # ---------- Per hour ----------
 hourly = run_query(f"""
@@ -186,15 +152,15 @@ hourly = run_query(f"""
         ROUND(100 * SUM(CASE WHEN IS_DELAYED THEN 1 ELSE 0 END) / COUNT(*), 1) AS DELAYED_PERCENT
     FROM FCT_FLIGHTS
     WHERE HAS_ACTUAL_TIME
-      AND {period_filter}
+      AND {LAST_3_DAYS}
     GROUP BY HOUR_OF_DAY, DIRECTION
-    HAVING COUNT(*) >= {min_flights}
+    HAVING COUNT(*) >= {MIN_FLIGHTS_PER_HOUR}
     ORDER BY HOUR_OF_DAY, DIRECTION
 """)
 
 st.subheader("Share of delayed flights by hour of day")
 if hourly.empty:
-    st.info("No hours match the selected minimum. Try a lower value.")
+    st.info("Not enough flights per hour to show this chart.")
 else:
     hourly["DELAYED_PERCENT"] = hourly["DELAYED_PERCENT"].astype(float)
     hourly["OPERATED_FLIGHTS"] = hourly["OPERATED_FLIGHTS"].astype(int)
@@ -226,17 +192,9 @@ else:
     )
     st.altair_chart(style_chart(hourly_line), use_container_width=True, theme=None)
 
-# ---------- Details ----------
-st.subheader("Details per day")
-st.markdown(
-    glass_table(daily.sort_values(["FLIGHT_DATE", "DIRECTION"], ascending=[False, True])),
-    unsafe_allow_html=True,
-)
-
 st.caption(
-    "Only flights that have operated are counted. Delayed = more than 15 minutes late. "
-    "Days without a pipeline run are missing from the charts, and the most recent day "
-    "may be incomplete because later flights have no actual time yet. "
-    "Hours with fewer flights than the slider minimum are hidden, since small samples "
-    "give misleading percentages. Hours are in Swedish local time."
+    "Latest three days in the data. Only flights that have operated are counted. "
+    "Delayed = more than 15 minutes late. Days without a pipeline run are missing. "
+    "Hours with very few flights are hidden, since small samples give misleading "
+    "percentages. Hours are in Swedish local time."
 )

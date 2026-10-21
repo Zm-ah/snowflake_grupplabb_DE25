@@ -5,4 +5,11 @@ __pycache__/
 .venv/
 .dlt/
 setup_service.sql
-setup_ghalia_user.sql
+setup_team_members_user.sql 
+logs/
+target/
+dbt_packages/
+**/secrets.toml
+
+# Dagster temporary folders
+.tmp_dagster_home_*/

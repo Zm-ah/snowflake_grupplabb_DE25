@@ -10,3 +10,6 @@ logs/
 target/
 dbt_packages/
 **/secrets.toml
+
+# Dagster temporary folders
+.tmp_dagster_home_*/

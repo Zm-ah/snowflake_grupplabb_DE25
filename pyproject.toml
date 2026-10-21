@@ -3,6 +3,10 @@ name = "snowflake-grupplabb-de25"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
+    "dagster>=1.13.26",
+    "dagster-dbt>=0.29.26",
+    "dagster-dlt>=0.29.26",
+    "dagster-webserver>=1.13.26",
     "dbt-core>=1.12.5",
     "dbt-snowflake>=1.12.1",
     "dlt[snowflake]>=1.31.0",

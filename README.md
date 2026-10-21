@@ -94,11 +94,46 @@ flight_dbt:
 ```
 Status: dbt is connected to Snowflake (`dbt debug`: All checks passed).
 
+## Project status and completed steps (21/oktober)
+
+Everything from the 14/oktober status above is still valid. Since then the whole dbt chain has been built and the dashboard has started to take shape.
+
+### 6. dbt: staging models
+Built in `flight_dbt/models/`, reading the raw tables in `STAGING`:
+- `stg_flights`
+- `stg_airlines`
+- `stg_airports`
+
+### 7. dbt: dimensions and fact table
+Built in the schema `ANALYTICS_MARTS`:
+- `dim_date`
+- `dim_airline` (65 rows)
+- `dim_airport` (52 rows)
+- `fct_flights`
+
+```bash
+cd flight_dbt
+uv run dbt run                # builds all models
+uv run dbt test               # runs all tests
+```
+Status: the whole chain runs and `dbt test` passes (PASS=9).
+
+### 8. Streamlit dashboard
+Pages: home, Airports, Airlines and Time trends. All pages read from the marts in Snowflake.
+```bash
+uv run streamlit run <path to the main Streamlit file>
+```
+
+### Known limitation: run the pipeline after midnight
+The API gives scheduled times first and actual times later. If the pipeline runs early in the day, flights that have not taken off yet only have a scheduled time, so the numbers for that day are incomplete. Because of this we run the pipeline after midnight and only show complete days in the dashboard.
+
 ### Next steps
-- [ ] `sources.yml` (the tables in `STAGING`)
-- [ ] Staging models
-- [ ] Dimensions and fact table
-- [ ] Tests and documentation
-- [ ] Streamlit dashboard
+- [x] `sources.yml` (the tables in `STAGING`)
+- [x] Staging models
+- [x] Dimensions and fact table
+- [x] Tests
+- [ ] Documentation (`schema.yml` descriptions)
+- [ ] Streamlit dashboard: final polish, only complete days, same numbers on all pages
 - [ ] Dagster
 - [ ] Docker and Azure (VG)
+ 

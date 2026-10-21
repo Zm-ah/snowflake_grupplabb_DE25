@@ -162,6 +162,7 @@ chart = (
         gridColor="rgba(255, 255, 255, 0.12)",
         domainColor="rgba(255, 255, 255, 0.35)",
         tickColor="rgba(255, 255, 255, 0.35)",
+
     )
     .configure_view(stroke=None)
 )

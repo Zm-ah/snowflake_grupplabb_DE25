@@ -11,6 +11,9 @@ logs/
 target/
 dbt_packages/
 **/secrets.toml
+.env.*
+!.env.example
 
 # Dagster temporary folders
 .tmp_dagster_home_*/
+dagster_home/

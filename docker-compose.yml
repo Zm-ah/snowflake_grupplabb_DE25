@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  # 1. DIN STREAMLIT APP
+  streamlit:
+    build:
+      context: .
+      dockerfile: streamlit_app/Dockerfile
+    ports:
+      - "8501:8501"  # Gör att du kan öppna appen på localhost:8501
+    env_file:
+      - .env         # Läser automatiskt in dina Snowflake-lösenord från din .env-fil
+    volumes:
+      - ./streamlit_app:/app  # Gör att appen uppdateras live när du ändrar kod
+
+  # 2. ER DAGSTER ORKESTRERING (Förberedd för din kollega)
+  dagster:
+    build:
+      context: .
+      dockerfile: dagster_project/Dockerfile  # Denna fil skapar kollegans  sen
+    ports:
+      - "3000:3000"  #  öppna Dagster UI på localhost:3000
+    env_file:
+      - .env         # Delar samma Snowflake-uppgifter som Streamlit

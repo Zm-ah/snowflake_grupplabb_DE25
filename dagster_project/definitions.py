@@ -1,4 +1,5 @@
 # Entry point for Dagster: collects everything Dagster should know about.
+import os
 import sys
 from pathlib import Path
 from dagster import AssetSelection, ScheduleDefinition, define_asset_job
@@ -21,10 +22,12 @@ sys.path.append(str(PROJECT_ROOT / "dlt_code"))
 from swedavia_flights import flights_resource  # noqa: E402
 from wikipedia_tables import airlines_resource, airports_resource  # noqa: E402
 
-# profiles.yml lives in ~/.dbt (outside the repo, so the password stays private)
+# Locally, profiles.yml lives in ~/.dbt (outside the repo, so the password stays
+# private). In Docker, DBT_PROFILES_DIR points to a profiles.yml that reads its
+# secrets from environment variables.
 dbt_project = DbtProject(
     project_dir=DBT_PROJECT_DIR,
-    profiles_dir=Path.home() / ".dbt",
+    profiles_dir=Path(os.getenv("DBT_PROFILES_DIR", Path.home() / ".dbt")),
 )
 dbt_project.prepare_if_dev()
 

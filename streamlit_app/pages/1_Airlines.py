@@ -3,9 +3,8 @@ import altair as alt
 import streamlit as st
 
 from db import LAST_3_DAYS, run_query
-from styles import BAR_COLOR, LABEL_COLOR, apply_styles, glass_table, style_chart
+from styles import BAR_COLOR, LABEL_COLOR, glass_table, style_chart
 
-apply_styles()
 
 st.title("Airlines")
 
@@ -14,7 +13,10 @@ min_flights = st.slider("Minimum number of operated flights per airline", 5, 100
 
 # Direction filter: the options come straight from the data
 directions = run_query("SELECT DISTINCT DIRECTION FROM FCT_FLIGHTS ORDER BY 1")["DIRECTION"].dropna().tolist()
-direction = st.selectbox("Direction", ["All"] + directions)
+# Put the dropdown in a narrow column so it does not stretch across the page
+select_col, _ = st.columns([1, 3])
+with select_col:
+    direction = st.selectbox("Direction", ["All"] + directions)
 direction_filter = "" if direction == "All" else f"AND f.DIRECTION = '{direction}'"
 
 df = run_query(f"""
@@ -88,4 +90,4 @@ st.caption(
     "Only flights that have operated are counted. Delayed = more than 15 minutes late. "
     "Median delay is used because a few extreme delays would distort the average. "
     "Airlines with few flights vary a lot, so use the slider to set a minimum."
-)
+) 

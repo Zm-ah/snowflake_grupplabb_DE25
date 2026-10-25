@@ -1,0 +1,16 @@
+[theme]
+base = "dark"
+# Accent color: slider, bars and links (same pink as the Airports page)
+primaryColor = "#F3D6E0"
+# Flat page color, taken from the middle of the Airports gradient
+backgroundColor = "#3D405B"
+# Dropdown and other input fields
+secondaryBackgroundColor = "#80566B"
+textColor = "#FFFFFF"
+# Table header: the page color with 10% white on top (like the glass table)
+dataframeHeaderBackgroundColor = "#80566B"
+# Table borders: the page color with 25% white on top
+dataframeBorderColor = "#6E7084"
+
+[theme.sidebar]
+backgroundColor = "#493447"

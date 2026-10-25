@@ -1,9 +1,12 @@
 # Shared database helper used by all pages
 import os
 
+from dotenv import load_dotenv
 import pandas as pd
 import snowflake.connector
 import streamlit as st
+
+load_dotenv()
 
 
 # SQL condition that keeps only the latest complete days, 

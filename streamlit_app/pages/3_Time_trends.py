@@ -3,47 +3,21 @@ import altair as alt
 import streamlit as st
 
 from db import LAST_3_DAYS, run_query
+from styles import LABEL_COLOR, style_chart
 
-# Settings 
+# Settings
 MIN_FLIGHTS_PER_HOUR = 10  # hide hours with too small a sample
-PARTIAL_THRESHOLD = 0.9    # a day is partial if less than this share 
-                        # of expected flights has an actual time
+PARTIAL_THRESHOLD = 0.9    # a day is partial if less than this share
+                           # of expected flights has an actual time
 
 # Palette: change here if the group updates the colors
 COLOR_ARRIVALS = "#FFF1D6"
 COLOR_DEPARTURES = "#D98791"
-TEXT_COLOR = "#f6ecdc"
 DIRECTION_SCALE = alt.Scale(
     domain=["arrivals", "departures"], range=[COLOR_ARRIVALS, COLOR_DEPARTURES]
 )
 
 st.title("Time trends")
-
-# Same sunset theme as the Airlines and Airports pages
-st.markdown(
-    """
-    <style>
-    /* Sunset gradient background */
-    .stApp {
-        background: linear-gradient(145deg, #16243D 0%, #3D405B 35%, #80566B 70%, #D98791 100%);
-        color: #FFFFFF;
-    }
-    [data-testid="stHeader"] { background: transparent; }
-    [data-testid="stHeader"] * { color: #FFFFFF !important; }
-
-    /* Titles and text */
-    h1, h2, h3, p, label { color: #FFFFFF !important; }
-    [data-testid="stCaptionContainer"] * { color: #F3D6E0 !important; }
-
-    /* Sidebar */
-    [data-testid="stSidebar"] { background: #493447; }
-    [data-testid="stSidebar"] * { color: #FFF1D6 !important; }
-    [data-testid="stSidebarNav"] a[aria-current="page"] { background-color: #80566B; border-radius: 10px; }
-    [data-testid="stSidebarNav"] a:hover { background-color: #705568; border-radius: 10px; }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
 
 
 def delay_line_chart(data, x, x_title, x_sort=alt.Undefined):
@@ -64,22 +38,16 @@ def delay_line_chart(data, x, x_title, x_sort=alt.Undefined):
                 alt.Tooltip("DELAYED_PERCENT:Q", title="Delayed (%)", format=".1f"),
             ],
         )
-        .properties(height=320, background="transparent")
-        .configure_axis(
-            labelColor=TEXT_COLOR,
-            titleColor=TEXT_COLOR,
-            gridColor="rgba(255, 255, 255, 0.12)",
-            domainColor="rgba(255, 255, 255, 0.35)",
-            tickColor="rgba(255, 255, 255, 0.35)",
-        )
-        .configure_legend(labelColor=TEXT_COLOR, titleColor=TEXT_COLOR)
-        .configure_view(stroke=None)
+        .properties(height=320)
     )
-    st.altair_chart(chart, use_container_width=True, theme=None)
+    styled = style_chart(chart).configure_legend(
+        labelColor=LABEL_COLOR, titleColor=LABEL_COLOR
+    )
+    st.altair_chart(styled, use_container_width=True, theme=None)
 
 
 # Per day
-# EXPECTED_FLIGHTS = flights that should have an actual time (not deleted or cancelled). 
+# EXPECTED_FLIGHTS = flights that should have an actual time (not deleted or cancelled).
 daily = run_query(f"""
     SELECT
         FLIGHT_DATE,
@@ -147,5 +115,5 @@ st.caption(
     "Latest three days in the data. Only flights that have operated are counted. "
     "Flights are 'delayed' when they are more than 15 minutes late. Hours are in Swedish local time. "
     "Hours with very few flights are hidden, since small samples give misleading "
-    "percentages. "
+    "percentages."
 )

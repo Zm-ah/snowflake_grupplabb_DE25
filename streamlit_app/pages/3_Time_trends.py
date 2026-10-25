@@ -145,7 +145,7 @@ else:
 
 st.caption(
     "Latest three days in the data. Only flights that have operated are counted. "
-    "Flights are "delayed" when they are more than 15 minutes late. Hours are in Swedish local time. "
+    "Flights are 'delayed' when they are more than 15 minutes late. Hours are in Swedish local time. "
     "Hours with very few flights are hidden, since small samples give misleading "
     "percentages. "
 )
